@@ -1,0 +1,30 @@
+# BISE Peshawar Online Results System
+
+> cloud.bisep.edu.pk is an online results portal for the Board of Intermediate & Secondary Education Peshawar (BISE Peshawar). Students check their SSC (9th & 10th class) and HSSC (11th & 12th class) annual and supplementary Peshawar board results by entering their roll number. The site shows the live official exam title from the board, a real-time countdown while results are unpublished, and a full marksheet (candidate information + subject-wise theory/practical marks) the moment results go live.
+
+## What the site does
+
+- **Live exam status**: fetches the current exam title and publishing state from the board continuously, so the page always shows the latest official information without a refresh.
+- **Countdown mode**: before results are announced, the site displays the official announcement time with a live HH:MM:SS countdown.
+- **Roll number search**: after results go live, students enter a 4–10 digit BISE Peshawar roll number and instantly get the full result.
+- **Student Result Details card**: candidate name, father name, marks, grade, remarks, and a subject-wise marks table (theory + practical, with fail cells highlighted in red).
+- **Share & Save**: any result can be shared as a picture card (WhatsApp, etc.) or saved as a PNG.
+- **Compare**: any two roll numbers can be compared side by side with a leader badge, per-subject chart and table.
+- **Works offline-ish**: 24-hour on-device result cache, installable as a PWA.
+
+## Public read-only API endpoints
+
+The site exposes the same data it renders through a small proxy at `/api/bisep-proxy`:
+
+- `GET /api/bisep-proxy?mode=current` — current exam cycle: official exam title, announcement date/time, countdown text, and whether results are live right now. Returns JSON.
+- `GET /api/bisep-proxy?roll=123456` — full marksheet for one BISE Peshawar roll number (4–10 digits). Returns JSON with `{found, roll_no, name, father_name, marks, grade, remarks, subjects:[...]}`.
+
+Both endpoints are read-only and rate-cached to protect the board's servers during peak result-day traffic.
+
+## Facts
+
+- Domain: https://cloud.bisep.edu.pk/
+- Board: Board of Intermediate & Secondary Education Peshawar (BISEP), Khyber Pakhtunkhwa, Pakistan
+- Result classes covered: SSC (9th, 10th) and HSSC (11th, 12th), annual & supplementary
+- Access: free, no registration, no login required
+- Languages: English

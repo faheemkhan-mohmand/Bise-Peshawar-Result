@@ -1,0 +1,115 @@
+# ═══════════════════════════════════════════════════════════════════
+# robots.txt — BISE Peshawar Online Results System
+# https://cloud.bisep.edu.pk/ — SSC & HSSC results by roll number
+# OPEN TO ALL CRAWLERS: search engines + AI answer engines + AI training
+# ═══════════════════════════════════════════════════════════════════
+
+# Default: everything is crawlable and indexable
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# ── SEARCH ENGINES (explicit welcome) ───────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ── AI SEARCH & ANSWER ENGINES (explicit welcome) ───────────────────
+# OpenAI — ChatGPT Search + browsing
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Google AI (Gemini / AI training)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Apple — Siri / Spotlight / Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Others
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+# ── SITEMAP ─────────────────────────────────────────────────────────
+Sitemap: https://cloud.bisep.edu.pk/sitemap.xml

@@ -1,0 +1,72 @@
+# ═════════════════════════════════════════════════════════════════════
+# BISE PESHAWAR ONLINE RESULTS SYSTEM — cloud.bisep.edu.pk
+# Apache configuration: hardened security headers + performance
+# Upload to the web root together with index.html
+# ═════════════════════════════════════════════════════════════════════
+
+# ── SECURITY HEADERS (take precedence over the in-page <meta> CSP) ────
+<IfModule mod_headers.c>
+  # No MIME sniffing
+  Header always set X-Content-Type-Options "nosniff"
+  # Clickjacking protection (stronger than the meta CSP equivalent)
+  Header always set X-Frame-Options "DENY"
+  Header always set Content-Security-Policy "default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https:; manifest-src 'self'; worker-src 'self'; form-action 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+  # Referrer minimization
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  # Lock down powerful browser APIs
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+  # Cross-origin isolation hardening
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Cross-Origin-Resource-Policy "same-origin"
+  # HSTS — only meaningful once the site is served over HTTPS
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  # XSS protection for legacy browsers
+  Header always set X-XSS-Protection "0"
+  # Explicit green light for Google + AI crawlers (no accidental noindex)
+  Header always set X-Robots-Tag "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+</IfModule>
+
+# ── SEO / AI CRAWLER FILES — always fresh, correct types ─────────────
+AddType application/xml .xml
+AddType text/plain .txt
+<FilesMatch "^(robots\.txt|sitemap\.xml|llms\.txt)$">
+  Header set Cache-Control "no-cache, must-revalidate"
+</FilesMatch>
+
+# ── COMPRESSION (Brotli via mod_brotli if available, else Deflate) ───
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript application/json image/svg+xml application/manifest+json text/xml application/xml
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/manifest+json text/xml application/xml
+</IfModule>
+
+# ── CACHING ──────────────────────────────────────────────────────────
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # HTML — always fresh (result data changes)
+  ExpiresByType text/html "access plus 1 hour"
+  # Immutable fingerprintable assets
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType application/manifest+json "access plus 7 days"
+  ExpiresByType text/xml "access plus 1 day"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(png|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# ── HARDENING ────────────────────────────────────────────────────────
+# No directory listings, no .git/.htaccess exposure
+Options -Indexes
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(bak|config|sql|ini|log|sh|swp|dist)$">
+  Require all denied
+</FilesMatch>
+
+# Single-page site — every error resolves to the app shell
+ErrorDocument 404 /index.html

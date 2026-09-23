@@ -1,0 +1,3667 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<!--
+═══════════════════════════════════════════════════════════════════════════
+  BOARD OF INTERMEDIATE & SECONDARY EDUCATION PESHAWAR — ONLINE RESULTS SYSTEM
+  cloud.bisep.edu.pk  ·  build 2026.09.23 · v2 live BISE engine  ·  Cloud Services 11
+───────────────────────────────────────────────────────────────────────────
+  ARCHITECTURE — Advanced Static Engineering
+  • Single self-contained HTML file: inline CSS + inline JS + inline SVG
+    sprite + data-URI favicon = exactly ONE network request, zero
+    third-party calls, zero render-blocking resources.
+  • System font stack = no webfont round-trips; LCP is the H1 itself.
+  • SEO: semantic HTML5, exact-match title, JSON-LD @graph
+    (EducationalOrganization · WebSite SearchAction · WebApplication ·
+    FAQPage), Open Graph + Twitter cards, canonical, robots, sitemap.
+  • Security: strict CSP meta, XSS-proof rendering (textContent only),
+    server header configs shipped in .htaccess and nginx-bisep.conf.
+  • Accessibility: WCAG-conscious contrast, skip link, ARIA live
+    regions, keyboard shortcuts, reduced-motion / reduced-transparency
+    / high-contrast media queries.
+  • Progressive enhancement: works with JavaScript disabled; PWA +
+    offline shell via sw.js when served over HTTPS.
+═══════════════════════════════════════════════════════════════════════════
+-->
+<!-- ══════════════════════════════════════════════════════════════════════
+     SEO CORE — every element below is deliberate. Do not remove.
+     Keyword targets: BISEP · BISE Peshawar · bisep result · Peshawar board
+     result · board result · bise result · Peshawar result · result bise
+     Peshawar · SSC/HSSC 9th 10th 11th 12th class result 2026
+     Primary domain: https://cloud.bisep.edu.pk/
+     ══════════════════════════════════════════════════════════════════ -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- Google Search Console: after deploying to cloud.bisep.edu.pk, add your
+     verification tag here, e.g.
+     <meta name="google-site-verification" content="YOUR_TOKEN"> -->
+
+<title>Board of Intermediate &amp; Secondary Education Peshawar Online Results System | BISEP Result 2026 | cloud.bisep.edu.pk</title>
+<meta name="description" content="Check BISE Peshawar Result 2026 online at cloud.bisep.edu.pk — the official Online Results System of the Board of Intermediate &amp; Secondary Education Peshawar. Search SSC &amp; HSSC (9th, 10th, 11th, 12th class) Peshawar board result by roll number: fast, free &amp; secure.">
+<meta name="keywords" content="bisep, bisep result, bise result, bise peshawar, bise peshawar result, peshawar board result, peshawar board, board result, peshawar result, result bise peshawar, bisep result 2026, bise peshawar result 2026, peshawar board result 2026, ssc result, hssc result, 9th class result, 10th class result, 11th class result, 12th class result, matric result, intermediate result, ssc part 1 result, ssc part 2 result, hssc part 1 result, hssc part 2 result, online result, result by roll number, cloud.bisep.edu.pk, bisep online results system, bise peshawar online result">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="author" content="BISE Peshawar — Cloud Services 11">
+<meta name="generator" content="BISEP Cloud Platform — Advanced Static Engineering">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Canonical: the single authoritative URL of this page -->
+<link rel="canonical" href="https://cloud.bisep.edu.pk/">
+
+<!-- Geo signals -->
+<meta name="geo.region" content="PK-KP">
+<meta name="geo.placename" content="Peshawar">
+<meta name="geo.position" content="34.0151;71.5249">
+<meta name="ICBM" content="34.0151, 71.5249">
+
+<!-- Open Graph (Facebook, WhatsApp, LinkedIn ...) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BISE Peshawar Online Results System">
+<meta property="og:title" content="BISE Peshawar Result 2026 — Check Online | Board of Intermediate &amp; Secondary Education Peshawar">
+<meta property="og:description" content="Official Online Results System of BISE Peshawar at cloud.bisep.edu.pk. Check SSC &amp; HSSC (9th, 10th, 11th, 12th class) Peshawar board result by roll number — instant, free &amp; secure.">
+<meta property="og:url" content="https://cloud.bisep.edu.pk/">
+<meta property="og:image" content="https://cloud.bisep.edu.pk/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="BISE Peshawar Online Results System — cloud.bisep.edu.pk — SSC and HSSC results">
+<meta property="og:locale" content="en_PK">
+
+<!-- Twitter / X card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BISE Peshawar Result 2026 — Check Online | cloud.bisep.edu.pk">
+<meta name="twitter:description" content="Official Online Results System of the Board of Intermediate &amp; Secondary Education Peshawar. SSC &amp; HSSC result by roll number — instant, free &amp; secure.">
+<meta name="twitter:image" content="https://cloud.bisep.edu.pk/assets/og-image.png">
+<meta name="twitter:image:alt" content="BISE Peshawar Online Results System — cloud.bisep.edu.pk">
+
+<!-- Icons — official BISE Peshawar board emblem -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon-512.png">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+
+<!-- PWA -->
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#04070f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f6fc" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<meta name="application-name" content="BISE Peshawar Results">
+<meta name="apple-mobile-web-app-title" content="BISEP Results">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="msapplication-TileColor" content="#04070f">
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SECURITY — Content-Security-Policy. Blocks every external script,
+     style, frame, object and connection. This page ships ZERO third-party
+     requests: no trackers, no CDN fonts, no external images.
+     Server-level equivalents (stronger, incl. frame-ancestors + HSTS)
+     are provided in .htaccess and nginx-bisep.conf.
+     ══════════════════════════════════════════════════════════════════ -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https:; manifest-src 'self'; worker-src 'self'; form-action 'self'; base-uri 'none'; object-src 'none'; frame-src 'none'; media-src 'none'; upgrade-insecure-requests">
+
+<!-- Theme bootstrap — runs BEFORE first paint to prevent a flash of the
+     wrong theme. Stored choice wins, otherwise the OS preference. -->
+<script>
+(function () {
+  var t = null;
+  try { t = localStorage.getItem('bisep-theme'); } catch (e) {}
+  if (t !== 'light' && t !== 'dark') {
+    t = (window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+  }
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
+<!-- ════════════════════════════════════════════════════════════════════
+     STRUCTURED DATA — JSON-LD @graph for rich Google results:
+     EducationalOrganization + WebSite (SearchAction sitelinks searchbox)
+     + WebApplication + FAQPage (rich FAQ snippets).
+     ══════════════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["EducationalOrganization", "GovernmentOrganization"],
+      "@id": "https://cloud.bisep.edu.pk/#organization",
+      "name": "Board of Intermediate & Secondary Education Peshawar",
+      "alternateName": ["BISE Peshawar", "BISEP", "Peshawar Board", "Board of Intermediate and Secondary Education Peshawar"],
+      "url": "https://cloud.bisep.edu.pk/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://cloud.bisep.edu.pk/#logo",
+        "url": "https://cloud.bisep.edu.pk/assets/og-image.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "BISE Peshawar Online Results System — cloud.bisep.edu.pk"
+      },
+      "image": { "@id": "https://cloud.bisep.edu.pk/#logo" },
+      "description": "The Board of Intermediate & Secondary Education Peshawar (BISEP) conducts SSC (9th & 10th class) and HSSC (11th & 12th class) annual and supplementary examinations and declares Peshawar board results for Khyber Pakhtunkhwa, Pakistan.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jamrud Road",
+        "addressLocality": "Peshawar",
+        "addressRegion": "Khyber Pakhtunkhwa",
+        "postalCode": "25000",
+        "addressCountry": "PK"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Peshawar" },
+        { "@type": "AdministrativeArea", "name": "Charsadda" },
+        { "@type": "AdministrativeArea", "name": "Chitral" },
+        { "@type": "AdministrativeArea", "name": "Khyber" },
+        { "@type": "AdministrativeArea", "name": "Mohmand" }
+      ],
+      "sameAs": ["https://www.bisep.edu.pk/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cloud.bisep.edu.pk/#website",
+      "url": "https://cloud.bisep.edu.pk/",
+      "name": "BISE Peshawar Online Results System",
+      "alternateName": ["cloud.bisep.edu.pk", "BISEP Online Results"],
+      "description": "Official cloud portal to check BISE Peshawar results online — SSC and HSSC annual & supplementary Peshawar board results by roll number.",
+      "inLanguage": "en-PK",
+      "publisher": { "@id": "https://cloud.bisep.edu.pk/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://cloud.bisep.edu.pk/?exam={exam}&roll={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://cloud.bisep.edu.pk/#webapp",
+      "name": "BISE Peshawar Online Results System",
+      "url": "https://cloud.bisep.edu.pk/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "inLanguage": "en-PK",
+      "isAccessibleForFree": true,
+      "featureList": [
+        "Check BISE Peshawar SSC result online",
+        "Check BISE Peshawar HSSC result online",
+        "Peshawar board result search by roll number",
+        "Live BISEP exam title and result countdown",
+        "Share result card as image (WhatsApp share sheet)",
+        "Save result card as PNG",
+        "Compare two roll numbers side by side",
+        "Printable provisional BISEP result card",
+        "Dark and light themes",
+        "Works on mobile and desktop"
+      ],
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
+      "publisher": { "@id": "https://cloud.bisep.edu.pk/#organization" }
+    }
+  ]
+}
+</script>
+<style>
+/* ══════════════════════════════════════════════════════════════════════
+   BISE PESHAWAR ONLINE RESULTS SYSTEM — cloud.bisep.edu.pk
+   Design system · "Aurora Glass" · hand-crafted, zero dependencies
+   ─────────────────────────────────────────────────────────────────────
+   Engineering notes:
+   • System font stack  → 0 webfont requests (fastest possible text paint)
+   • Animations use transform/opacity only (GPU-composited, 60fps)
+   • Aurora blobs are pre-blurred radial gradients (no filter:blur cost)
+   • content-visibility on below-fold sections cuts initial render cost
+   • All tokens namespaced --bz-* to avoid collisions
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ── 1. DESIGN TOKENS ────────────────────────────────────────────────── */
+:root {
+  /* dark theme (default) */
+  --bz-bg: #04070f;
+  --bz-bg-2: #060c1a;
+  --bz-bg-3: #081226;
+  --bz-surface: rgba(13, 23, 44, 0.58);
+  --bz-surface-2: rgba(17, 29, 54, 0.72);
+  --bz-surface-solid: #0b1526;
+  --bz-border: rgba(148, 176, 214, 0.16);
+  --bz-border-strong: rgba(148, 176, 214, 0.3);
+  --bz-text: #e8eefb;
+  --bz-text-muted: #97a8c6;
+  --bz-accent: #10b981;
+  --bz-accent-2: #34d399;
+  --bz-accent-deep: #059669;
+  --bz-teal: #2dd4bf;
+  --bz-gold: #f5b942;
+  --bz-gold-text: #fbc65d;
+  --bz-danger: #f87171;
+  --bz-danger-deep: #dc2626;
+  --bz-warn: #fbbf24;
+
+  /* layout + type */
+  --bz-font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --bz-mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  --bz-fs-body: clamp(1rem, 0.25vw + 0.92rem, 1.075rem);
+  --bz-fs-hero: clamp(2.05rem, 4.6vw + 0.6rem, 3.9rem);
+  --bz-fs-h2: clamp(1.55rem, 1.9vw + 0.9rem, 2.3rem);
+  --bz-fs-h3: clamp(1.08rem, 0.7vw + 0.85rem, 1.3rem);
+  --bz-fs-sm: 0.875rem;
+  --bz-fs-xs: 0.78rem;
+
+  /* rhythm */
+  --bz-space-1: 0.35rem; --bz-space-2: 0.65rem; --bz-space-3: 1rem;
+  --bz-space-4: 1.5rem; --bz-space-5: 2.25rem; --bz-space-6: 3.5rem;
+  --bz-section-y: clamp(3.5rem, 8vw, 6.5rem);
+  --bz-radius: 1.15rem;
+  --bz-radius-sm: 0.7rem;
+  --bz-radius-xs: 0.45rem;
+  --bz-header-h: 74px;
+
+  /* effects */
+  --bz-shadow: 0 18px 50px -18px rgba(0, 0, 0, 0.55);
+  --bz-shadow-lg: 0 32px 80px -24px rgba(0, 0, 0, 0.65);
+  --bz-glow: 0 0 0 1px rgba(52, 211, 153, 0.25), 0 12px 42px -8px rgba(16, 185, 129, 0.4);
+  --bz-grad-accent: linear-gradient(135deg, #34d399 0%, #10b981 45%, #0d9488 100%);
+  --bz-grad-text: linear-gradient(92deg, #6ee7b7, #34d399 40%, #2dd4bf);
+  --bz-select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2397a8c6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --bz-blur: blur(18px) saturate(150%);
+  --bz-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --bz-dur: 0.28s;
+}
+
+html[data-theme="light"] {
+  --bz-bg: #eef3fb;
+  --bz-bg-2: #f4f8fd;
+  --bz-bg-3: #e6edf8;
+  --bz-surface: rgba(255, 255, 255, 0.74);
+  --bz-surface-2: rgba(255, 255, 255, 0.92);
+  --bz-surface-solid: #ffffff;
+  --bz-border: rgba(16, 42, 82, 0.14);
+  --bz-border-strong: rgba(16, 42, 82, 0.26);
+  --bz-text: #0e1d36;
+  --bz-text-muted: #45597a;
+  --bz-accent: #059669;
+  --bz-accent-2: #0d9488;
+  --bz-accent-deep: #047857;
+  --bz-teal: #0f766e;
+  --bz-gold: #d97706;
+  --bz-gold-text: #a15c07;
+  --bz-danger: #dc2626;
+  --bz-shadow: 0 18px 44px -20px rgba(23, 43, 84, 0.35);
+  --bz-shadow-lg: 0 30px 70px -26px rgba(23, 43, 84, 0.4);
+  --bz-glow: 0 0 0 1px rgba(5, 150, 105, 0.28), 0 12px 38px -10px rgba(5, 150, 105, 0.45);
+  --bz-grad-text: linear-gradient(92deg, #047857, #059669 45%, #0f766e);
+  --bz-select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2345597a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* ── 2. RESET + BASE ─────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--bz-header-h) + 14px);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  font-family: var(--bz-font);
+  font-size: var(--bz-fs-body);
+  line-height: 1.65;
+  color: var(--bz-text);
+  background: var(--bz-bg);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.45s var(--bz-ease), color 0.45s var(--bz-ease);
+}
+main { flex: 1 0 auto; width: 100%; }
+img, svg, video { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: none; }
+a { color: var(--bz-accent-2); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+ul[class], ol[class] { list-style: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; }
+::selection { background: rgba(16, 185, 129, 0.32); color: var(--bz-text); }
+
+:focus-visible {
+  outline: 2.5px solid var(--bz-accent-2);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: var(--bz-bg-2); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--bz-accent-deep), var(--bz-teal));
+  border-radius: 8px;
+  border: 2.5px solid var(--bz-bg-2);
+}
+
+/* ── 3. UTILITIES ────────────────────────────────────────────────────── */
+.container {
+  width: min(1180px, 100% - 2.6rem);
+  margin-inline: auto;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.skip-link {
+  position: fixed;
+  top: -100px; left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--bz-accent);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0 0 var(--bz-radius-sm) var(--bz-radius-sm);
+  transition: top 0.2s;
+}
+.skip-link:focus { top: 0; text-decoration: none; }
+
+.icon {
+  width: 1.25em; height: 1.25em;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.grad-text {
+  /* solid fallback FIRST - headline stays visible even if clip:text is unsupported */
+  color: var(--bz-accent-2);
+}
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .grad-text {
+    background: var(--bz-grad-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* scroll-reveal (progressive enhancement — visible by default if JS off) */
+.reveal { opacity: 1; transform: none; }
+.js .reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s var(--bz-ease), transform 0.7s var(--bz-ease);
+  transition-delay: var(--d, 0s);
+}
+.js .reveal.is-in { opacity: 1; transform: none; }
+
+/* buttons */
+.btn {
+  --btn-bg: var(--bz-grad-accent);
+  --btn-3d: var(--bz-accent-deep);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.7rem;
+  font-weight: 750;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  background: var(--btn-bg);
+  border-radius: var(--bz-radius-sm);
+  /* 3D extrusion: top inner highlight + dark bottom edge + floating drop */
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.32),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.16),
+    0 5px 0 var(--btn-3d),
+    0 16px 30px -12px rgba(4, 24, 16, 0.6);
+  overflow: hidden;
+  transition: transform var(--bz-dur) var(--bz-ease), box-shadow var(--bz-dur) var(--bz-ease), filter var(--bz-dur);
+  -webkit-tap-highlight-color: transparent;
+}
+.btn::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.65s ease;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.07);
+  text-decoration: none;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.32),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.16),
+    0 8px 0 var(--btn-3d),
+    0 24px 40px -14px rgba(4, 24, 16, 0.62);
+}
+.btn:hover::after { transform: translateX(120%); }
+.btn:active {
+  transform: translateY(3px) scale(0.99);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.22),
+    0 1px 0 var(--btn-3d),
+    0 6px 14px -8px rgba(4, 24, 16, 0.5);
+}
+.btn:disabled {
+  opacity: 0.65;
+  cursor: wait;
+  transform: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 3px 0 var(--btn-3d);
+}
+.btn--ghost {
+  color: var(--bz-text);
+  background: transparent;
+  border: 1.5px solid var(--bz-border-strong);
+  box-shadow: none;
+}
+.btn--ghost:hover {
+  border-color: var(--bz-accent);
+  color: var(--bz-accent-2);
+  box-shadow: 0 10px 22px -12px rgba(2, 12, 28, 0.5);
+}
+.btn--ghost:active { transform: translateY(1px) scale(0.99); box-shadow: none; }
+
+.btn--block { width: 100%; }
+.btn--sm { padding: 0.55rem 1.05rem; font-size: var(--bz-fs-sm); }
+
+/* spinner (inside primary buttons) */
+.btn.is-loading .icon { display: none; }
+.btn.is-loading::before {
+  content: "";
+  width: 1.05em; height: 1.05em;
+  border-radius: 50%;
+  border: 2.5px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  animation: bz-spin 0.7s linear infinite;
+}
+@keyframes bz-spin { to { transform: rotate(360deg); } }
+
+/* chips */
+/* glass card base */
+.glass {
+  background: var(--bz-surface);
+  border: 1px solid var(--bz-border);
+  border-radius: var(--bz-radius);
+  backdrop-filter: var(--bz-blur);
+  -webkit-backdrop-filter: var(--bz-blur);
+  box-shadow: var(--bz-shadow);
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .glass { background: var(--bz-surface-2); }
+}
+
+/* below-fold render optimization */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}
+
+/* ── 4. ANNOUNCEMENT TICKER ──────────────────────────────────────────── */
+.ticker {
+  position: relative;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  padding: 0.42rem max(1.3rem, env(safe-area-inset-right)) 0.42rem max(1.3rem, env(safe-area-inset-left));
+  font-size: var(--bz-fs-xs);
+  font-weight: 650;
+  background: linear-gradient(90deg, #053829, #065f46 30%, #047857 55%, #065f46 80%, #053829);
+  color: #d1fae5;
+  overflow: hidden;
+}
+.ticker__viewport {
+  overflow: hidden; flex: 1;
+  mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
+}
+.ticker__track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: bz-marquee 44s linear infinite;
+  will-change: transform;
+}
+.ticker__track > span { margin-right: 3.4rem; }
+.ticker:hover .ticker__track, .ticker:focus-within .ticker__track { animation-play-state: paused; }
+.ticker__track span { display: inline-flex; align-items: center; gap: 0.6rem; }
+@keyframes bz-marquee { to { transform: translateX(-50%); } }
+
+/* ── 5. HEADER / NAVIGATION ──────────────────────────────────────────── */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--bz-header-h);
+  display: flex;
+  align-items: center;
+  background: color-mix(in srgb, var(--bz-bg) 62%, transparent);
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.35s, border-color 0.35s, box-shadow 0.35s;
+}
+.site-header.is-scrolled {
+  background: color-mix(in srgb, var(--bz-bg) 86%, transparent);
+  border-bottom-color: var(--bz-border);
+  box-shadow: 0 10px 34px -18px rgba(0, 0, 0, 0.5);
+  backdrop-filter: var(--bz-blur);
+  -webkit-backdrop-filter: var(--bz-blur);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+.brand__emblem { border-radius: 8px; }
+
+/* ── 6. HERO ─────────────────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  overflow: clip;
+  padding: calc(var(--bz-space-6) + 1rem) 0 var(--bz-space-6);
+  isolation: isolate;
+}
+.aurora { position: absolute; inset: 0; z-index: -2; overflow: hidden; pointer-events: none; }
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.55;
+  animation: bz-drift 22s ease-in-out infinite alternate;
+  will-change: transform;
+}
+.blob--1 {
+  width: 46rem; height: 46rem; top: -16rem; left: -12rem;
+  background: radial-gradient(circle at 35% 35%, rgba(16, 185, 129, 0.4), rgba(16, 185, 129, 0.08) 55%, transparent 70%);
+}
+.blob--2 {
+  width: 38rem; height: 38rem; top: -8rem; right: -14rem;
+  background: radial-gradient(circle at 60% 40%, rgba(45, 212, 191, 0.32), rgba(45, 212, 191, 0.06) 55%, transparent 70%);
+  animation-duration: 27s; animation-delay: -9s;
+}
+.blob--3 {
+  width: 44rem; height: 30rem; bottom: -18rem; left: 28%;
+  background: radial-gradient(circle at 50% 50%, rgba(245, 185, 66, 0.16), rgba(245, 185, 66, 0.04) 55%, transparent 70%);
+  animation-duration: 31s; animation-delay: -16s;
+}
+.blob--4 {
+  width: 30rem; height: 30rem; bottom: -10rem; right: 6%;
+  background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.18), transparent 65%);
+  animation-duration: 25s; animation-delay: -4s;
+}
+@keyframes bz-drift {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to { transform: translate3d(4.5rem, 2.6rem, 0) scale(1.14); }
+}
+.hero__grid {
+  position: absolute; inset: 0; z-index: -1;
+  background-image:
+    linear-gradient(rgba(148, 176, 214, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 176, 214, 0.07) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(ellipse 90% 72% at 50% 34%, #000 25%, transparent 78%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 72% at 50% 34%, #000 25%, transparent 78%);
+}
+.hero__noise {
+  position: absolute; inset: 0; z-index: -1; opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* == 6b. FIXED 3D BACKGROUND SCENE - aurora blobs + floating glass bubbles == */
+.bg3d { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+.bg3d__grid {
+  position: absolute; inset: -2px;
+  background-image:
+    linear-gradient(rgba(148, 176, 214, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 176, 214, 0.06) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 30%, #000 20%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 30%, #000 20%, transparent 75%);
+}
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.85;
+  /* 3D glass sphere: specular highlight + inner rim light + body tint */
+  background:
+    radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 9%, rgba(255, 255, 255, 0.06) 22%, transparent 42%),
+    radial-gradient(circle at 68% 82%, rgba(255, 255, 255, 0.14), transparent 46%),
+    radial-gradient(circle at 50% 50%, rgba(52, 211, 153, 0.08), rgba(45, 212, 191, 0.05) 55%, rgba(59, 130, 246, 0.14) 100%);
+  box-shadow:
+    inset 0 -10px 24px rgba(16, 185, 129, 0.16),
+    inset 0 8px 20px rgba(255, 255, 255, 0.14),
+    inset 2px 0 6px rgba(255, 255, 255, 0.1),
+    0 24px 48px -22px rgba(2, 12, 28, 0.6);
+  animation: bz-buoy 18s ease-in-out infinite alternate;
+  will-change: transform;
+}
+.bubble--1 { width: 150px; height: 150px; left: 6%;   top: 16%; animation-duration: 17s; }
+.bubble--2 { width: 74px;  height: 74px;  left: 18%;  top: 58%; animation-duration: 13s; animation-delay: -5s; }
+.bubble--3 {
+  width: 110px; height: 110px; left: 44%; top: 74%; animation-duration: 21s; animation-delay: -9s; opacity: 0.7;
+  /* gold-tinted sphere */
+  background:
+    radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.3) 9%, transparent 42%),
+    radial-gradient(circle at 50% 50%, rgba(245, 185, 66, 0.12), rgba(245, 185, 66, 0.05) 58%, rgba(234, 88, 12, 0.12) 100%);
+  box-shadow:
+    inset 0 -10px 24px rgba(245, 185, 66, 0.18),
+    inset 0 8px 20px rgba(255, 255, 255, 0.12),
+    0 24px 48px -22px rgba(30, 16, 0, 0.55);
+}
+.bubble--4 { width: 56px;  height: 56px;  left: 62%;  top: 20%; animation-duration: 15s; animation-delay: -3s; }
+.bubble--5 {
+  width: 190px; height: 190px; right: 5%; top: 34%; animation-duration: 24s; animation-delay: -12s; opacity: 0.6;
+  /* blue-tinted sphere */
+  background:
+    radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.28) 9%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.05) 55%, rgba(14, 165, 233, 0.14) 100%);
+  box-shadow:
+    inset 0 -12px 26px rgba(59, 130, 246, 0.18),
+    inset 0 8px 20px rgba(255, 255, 255, 0.12),
+    0 26px 52px -22px rgba(2, 12, 28, 0.6);
+}
+.bubble--6 { width: 90px;  height: 90px;  right: 14%; top: 76%; animation-duration: 19s; animation-delay: -7s; }
+.bubble--7 { width: 44px;  height: 44px;  left: 32%;  top: 8%;  animation-duration: 12s; animation-delay: -2s; opacity: 0.9; }
+@keyframes bz-buoy {
+  0%   { transform: translate3d(0, 0, 0) scale(1) rotate(0deg); }
+  33%  { transform: translate3d(1.6rem, -2.2rem, 0) scale(1.05) rotate(4deg); }
+  66%  { transform: translate3d(-1.2rem, -3.4rem, 0) scale(0.97) rotate(-3deg); }
+  100% { transform: translate3d(0.8rem, -1.2rem, 0) scale(1.04) rotate(2deg); }
+}
+html[data-theme="light"] .bubble {
+  background:
+    radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0.1) 24%, transparent 44%),
+    radial-gradient(circle at 50% 50%, rgba(5, 150, 105, 0.06), rgba(15, 118, 110, 0.05) 55%, rgba(37, 99, 235, 0.12) 100%);
+  box-shadow:
+    inset 0 -10px 24px rgba(5, 150, 105, 0.12),
+    inset 0 8px 20px rgba(255, 255, 255, 0.6),
+    0 24px 48px -24px rgba(23, 43, 84, 0.35);
+}
+html[data-theme="light"] .bg3d__grid {
+  background-image:
+    linear-gradient(rgba(16, 42, 82, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 42, 82, 0.05) 1px, transparent 1px);
+}
+@media (max-width: 720px) {
+  .bubble--3, .bubble--5 { display: none; }
+  .bubble { opacity: 0.75; }
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: center;
+}
+/* ── 6b. RESULT FORM (the hero centerpiece) ─────────────────────────── */
+.result-form-wrap { position: relative; }
+.result-form-wrap::before {
+  content: "";
+  position: absolute;
+  inset: -1.4rem;
+  z-index: -1;
+  border-radius: 2rem;
+  background: conic-gradient(from 120deg, rgba(16, 185, 129, 0.22), rgba(45, 212, 191, 0.08), rgba(245, 185, 66, 0.12), rgba(16, 185, 129, 0.22));
+  filter: blur(34px);
+  animation: bz-halo 9s ease-in-out infinite alternate;
+}
+@keyframes bz-halo { to { transform: rotate(6deg) scale(1.06); } }
+
+.result-form {
+  padding: clamp(1.4rem, 2.4vw, 2.1rem);
+  border-radius: calc(var(--bz-radius) + 0.4rem);
+}
+.result-form__head {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.3rem;
+}
+.result-form__head .icon { width: 1.5rem; height: 1.5rem; color: var(--bz-accent-2); }
+.result-form__head h2 { font-size: 1.18rem; font-weight: 800; letter-spacing: -0.01em; }
+.result-form__head p { font-size: var(--bz-fs-xs); color: var(--bz-text-muted); }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+.field { display: flex; flex-direction: column; gap: 0.4rem; }
+.field--full { grid-column: 1 / -1; }
+.field label {
+  font-size: var(--bz-fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--bz-text-muted);
+}
+.field input, .field select {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  color: var(--bz-text);
+  background: color-mix(in srgb, var(--bz-bg) 55%, var(--bz-surface-solid));
+  border: 1.5px solid var(--bz-border-strong);
+  border-radius: var(--bz-radius-sm);
+  transition: border-color var(--bz-dur), box-shadow var(--bz-dur), background-color var(--bz-dur);
+  min-height: 48px;
+}
+.field select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: var(--bz-select-arrow);
+  background-repeat: no-repeat;
+  background-position: right 0.95rem center;
+  padding-right: 2.6rem;
+  cursor: pointer;
+}
+.field input::placeholder { color: var(--bz-text-muted); opacity: 0.65; }
+.field input:hover, .field select:hover { border-color: var(--bz-accent-deep); }
+.field input:focus, .field select:focus {
+  outline: none;
+  border-color: var(--bz-accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--bz-accent) 18%, transparent);
+}
+.field input[aria-invalid="true"], .field select[aria-invalid="true"] {
+  border-color: var(--bz-danger);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--bz-danger) 16%, transparent);
+}
+.field-hint { font-size: var(--bz-fs-xs); color: var(--bz-text-muted); }
+.field-hint kbd {
+  font-family: var(--bz-mono);
+  font-size: 0.72rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--bz-border-strong);
+  border-bottom-width: 2.5px;
+  border-radius: 5px;
+  background: var(--bz-surface);
+}
+.form-error {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--bz-fs-sm);
+  font-weight: 650;
+  color: var(--bz-danger);
+}
+.form-error.is-visible { display: flex; }
+.form-error .icon { width: 1.05em; height: 1.05em; }
+.result-form__submit { margin-top: 0.35rem; font-size: 1.04rem; padding: 1rem 1.6rem; }
+.form-footnote {
+  margin-top: 0.85rem;
+  font-size: var(--bz-fs-xs);
+  color: var(--bz-text-muted);
+  text-align: center;
+}
+.form-footnote .icon { width: 0.95em; height: 0.95em; vertical-align: -0.1em; color: var(--bz-accent-2); }
+
+/* ── 7. RESULT VIEW ──────────────────────────────────────────────────── */
+#result-view { padding-top: var(--bz-space-5); }
+#result-view:empty { display: none; padding: 0; }
+
+.result-card {
+  position: relative;
+  max-width: 880px;
+  margin-inline: auto;
+  padding: clamp(1.3rem, 2.6vw, 2.3rem);
+  border-radius: calc(var(--bz-radius) + 0.35rem);
+  animation: bz-card-in 0.6s var(--bz-ease) both;
+  overflow: hidden;
+}
+@keyframes bz-card-in {
+  from { opacity: 0; transform: translateY(30px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+.result-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background: var(--bz-grad-accent);
+}
+.result-card__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px dashed var(--bz-border-strong);
+}
+.result-card__head .brand__emblem { width: 46px; height: 46px; }
+.result-card__brand { line-height: 1.25; }
+.result-card__brand strong { display: block; font-size: 1.02rem; font-weight: 800; }
+.result-card__brand span { font-size: var(--bz-fs-xs); color: var(--bz-accent-2); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.result-card__exam {
+  margin-left: auto;
+  text-align: right;
+  font-size: var(--bz-fs-xs);
+  color: var(--bz-text-muted);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.result-card__exam strong { display: block; font-size: 0.95rem; color: var(--bz-text); }
+
+.result-card__info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem 1.6rem;
+  padding: 1.2rem 0;
+}
+.result-card__info > div { min-width: 0; }
+.result-card__info dt {
+  font-size: var(--bz-fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bz-text-muted);
+  margin-bottom: 0.15rem;
+}
+.result-card__info dd { font-weight: 700; font-size: 1.02rem; overflow-wrap: anywhere; }
+
+.marks-wrap { overflow-x: auto; border-radius: var(--bz-radius-sm); border: 1px solid var(--bz-border); }
+.marks { min-width: 560px; font-size: 0.95rem; }
+.marks caption {
+  caption-side: top;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  font-size: var(--bz-fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--bz-text-muted);
+  background: color-mix(in srgb, var(--bz-bg) 40%, var(--bz-surface-solid));
+  border-bottom: 1px solid var(--bz-border);
+}
+.marks th, .marks td { padding: 0.68rem 1rem; text-align: right; }
+.marks th {
+  font-size: var(--bz-fs-xs);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--bz-text-muted);
+  background: color-mix(in srgb, var(--bz-bg) 40%, var(--bz-surface-solid));
+}
+.marks thead th { border-bottom: 1px solid var(--bz-border-strong); }
+.marks tbody tr { border-bottom: 1px solid var(--bz-border); }
+.marks tbody tr:last-child { border-bottom: none; }
+.marks tbody tr:nth-child(even) { background: color-mix(in srgb, var(--bz-bg) 26%, transparent); }
+.marks th:first-child, .marks td:first-child { text-align: left; }
+.marks td { font-variant-numeric: tabular-nums; font-weight: 650; }
+.marks .is-fail { color: var(--bz-danger); font-weight: 800; }
+.marks .is-top { color: var(--bz-accent-2); font-weight: 800; }
+.marks tfoot td {
+  font-weight: 850;
+  font-size: 1rem;
+  border-top: 2px solid var(--bz-border-strong);
+  background: color-mix(in srgb, var(--bz-accent) 8%, var(--bz-surface-solid));
+}
+
+.result-card__summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2.2rem;
+  padding: 1.2rem 0 0.2rem;
+}
+.summary-item__label { display: block; font-size: var(--bz-fs-xs); font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--bz-text-muted); }
+.summary-item__value { font-size: 1.35rem; font-weight: 850; font-variant-numeric: tabular-nums; }
+.summary-item__value.is-grade { font-size: 1.8rem; color: var(--bz-accent-2); }
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .summary-item__value.is-grade { background: var(--bz-grad-text); -webkit-background-clip: text; background-clip: text; color: transparent; }
+}
+
+.stamp {
+  margin-left: auto;
+  padding: 0.4rem 1rem;
+  border: 3px double currentColor;
+  border-radius: var(--bz-radius-sm);
+  font-weight: 900;
+  font-size: 1.05rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  transform: rotate(-6deg) scale(1);
+  opacity: 0.95;
+  animation: bz-stamp 0.5s cubic-bezier(0.2, 1.6, 0.35, 1) both;
+}
+@keyframes bz-stamp {
+  from { transform: rotate(-6deg) scale(2.1); opacity: 0; }
+  to { transform: rotate(-6deg) scale(1); opacity: 0.95; }
+}
+.stamp--pass { color: var(--bz-accent-2); background: color-mix(in srgb, var(--bz-accent) 10%, transparent); }
+.stamp--comp { color: var(--bz-warn); background: color-mix(in srgb, var(--bz-warn) 10%, transparent); }
+.stamp--fail { color: var(--bz-danger); background: color-mix(in srgb, var(--bz-danger) 10%, transparent); }
+
+.position-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: var(--bz-fs-sm);
+  color: #1f1302;
+  background: linear-gradient(120deg, #fde68a, #f5b942 60%, #f59e0b);
+  box-shadow: 0 8px 26px -8px rgba(245, 158, 11, 0.6);
+}
+.position-badge .icon { width: 1.1em; height: 1.1em; }
+
+.result-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.3rem;
+  padding-top: 1.3rem;
+  border-top: 1px dashed var(--bz-border-strong);
+}
+.result-card__note { margin-top: 1rem; font-size: var(--bz-fs-xs); color: var(--bz-text-muted); text-align: center; }
+
+/* not-found state */
+.notfound {
+  max-width: 620px;
+  margin-inline: auto;
+  padding: clamp(1.6rem, 3vw, 2.6rem);
+  text-align: center;
+  animation: bz-card-in 0.5s var(--bz-ease) both;
+}
+.notfound__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px; height: 66px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  color: var(--bz-warn);
+  background: color-mix(in srgb, var(--bz-warn) 12%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--bz-warn) 35%, transparent);
+}
+.notfound__icon .icon { width: 1.9rem; height: 1.9rem; }
+.notfound h3 { font-size: 1.3rem; font-weight: 800; margin-bottom: 0.5rem; }
+.notfound p { color: var(--bz-text-muted); max-width: 46ch; margin-inline: auto; }
+.notfound ul { display: inline-block; text-align: left; margin: 1rem auto 1.3rem; color: var(--bz-text-muted); padding-left: 1.2rem; }
+.notfound li { margin: 0.3rem 0; }
+.notfound .searched {
+  font-family: var(--bz-mono);
+  font-size: 0.85rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--bz-accent) 12%, transparent);
+  color: var(--bz-accent-2);
+}
+
+/* skeleton loading state */
+.skeleton-card { max-width: 880px; margin-inline: auto; padding: clamp(1.3rem, 2.6vw, 2.3rem); }
+.sk {
+  border-radius: var(--bz-radius-sm);
+  background: linear-gradient(100deg, var(--bz-surface-2) 40%, color-mix(in srgb, var(--bz-text-muted) 18%, transparent) 50%, var(--bz-surface-2) 60%);
+  background-size: 200% 100%;
+  animation: bz-shimmer 1.3s linear infinite;
+}
+@keyframes bz-shimmer { to { background-position: -200% 0; } }
+.sk--title { height: 1.5rem; width: 55%; margin-bottom: 1.3rem; }
+.sk--row { height: 0.95rem; margin-bottom: 0.75rem; }
+.sk--row:nth-child(odd) { width: 88%; }
+.sk--row:nth-child(even) { width: 70%; }
+.sk--box { height: 7.5rem; border-radius: var(--bz-radius-sm); }
+
+/* ── 9. FOOTER / TO-TOP / TOAST ──────────────────────────────────────── */
+.site-footer {
+  margin-top: auto;
+  padding: 1.7rem 0 calc(1.7rem + env(safe-area-inset-bottom));
+  text-align: center;
+  border-top: 1px solid var(--bz-border);
+  background: var(--bz-bg-2);
+}
+.footer__line {
+  font-size: 0.88rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  color: var(--bz-text-muted);
+}
+
+.toast-region {
+  position: fixed;
+  left: 50%;
+  bottom: max(1.4rem, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 150;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  align-items: center;
+  pointer-events: none;
+}
+.toast {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.25rem;
+  font-size: var(--bz-fs-sm);
+  font-weight: 700;
+  color: var(--bz-text);
+  background: var(--bz-surface-2);
+  border: 1px solid var(--bz-border-strong);
+  border-radius: 999px;
+  box-shadow: var(--bz-shadow-lg);
+  backdrop-filter: var(--bz-blur);
+  -webkit-backdrop-filter: var(--bz-blur);
+  animation: bz-toast-in 0.35s var(--bz-ease) both;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.toast .icon { width: 1.1em; height: 1.1em; color: var(--bz-accent-2); }
+.toast--error .icon { color: var(--bz-danger); }
+.toast.is-out { animation: bz-toast-out 0.3s ease both; }
+@keyframes bz-toast-in { from { opacity: 0; transform: translateY(14px) scale(0.95); } }
+@keyframes bz-toast-out { to { opacity: 0; transform: translateY(10px) scale(0.97); } }
+
+/* ── 10. RESPONSIVE ──────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .result-form-wrap { max-width: 640px; margin-inline: auto; width: 100%; }
+  .about-grid { grid-template-columns: 1fr; }
+  .facts { position: static; }
+}
+@media (max-width: 640px) {
+  .container { width: min(1180px, 100% - 1.8rem); }
+  .form-grid { grid-template-columns: 1fr; }
+  .result-card__head { flex-wrap: wrap; }
+  .result-card__exam { margin-left: 0; text-align: left; width: 100%; }
+  .result-card__summary { gap: 0.9rem 1.4rem; }
+  .stamp { margin-left: 0; }
+}
+
+/* ── 11. MOTION / TRANSPARENCY / CONTRAST PREFERENCES ────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .js .reveal { opacity: 1; transform: none; }
+  .ticker__track { animation: none; }
+  .bubble, .bg3d .blob { animation: none !important; }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass, .toast, .site-header.is-scrolled {
+    background: var(--bz-surface-solid) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+}
+@media (prefers-contrast: more) {
+  :root { --bz-text-muted: var(--bz-text); --bz-border: var(--bz-border-strong); }
+}
+
+/* ── 12. PRINT — clean provisional result card ───────────────────────── */
+@media print {
+  @page { size: A4; margin: 14mm; }
+  html { scroll-behavior: auto; }
+  body { background: #fff !important; color: #000 !important; }
+  .site-header, .ticker, .hero, .toast-region, .site-footer { display: none !important; }
+  .bg3d, .aurora, .hero__grid, .hero__noise, .result-form-wrap::before { display: none !important; }
+  body.has-result .site-header, body.has-result .ticker, body.has-result .hero { display: none !important; }
+  main { display: block; }
+  #result-view { padding: 0; }
+  #result-view:empty { display: none; }
+  .result-card, .notfound, .skeleton-card {
+    background: #fff !important;
+    border: 1.5px solid #000;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+  .result-card * { color: #000 !important; }
+  .marks th, .marks td { border-bottom: 1px solid #666; }
+  .marks tbody tr:nth-child(even) { background: #f3f3f3 !important; }
+  .marks tfoot td { background: #eee !important; }
+  .result-card__actions { display: none; }
+  .stamp { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .grad-text, .summary-item__value.is-grade, .stat__value {
+    background: none !important;
+    -webkit-text-fill-color: currentColor;
+    color: #000 !important;
+  }
+}
+
+/* ── SIMPLIFIED SINGLE-PAGE LAYOUT — header title block + centered form ── */
+.site-header--simple {
+  height: auto;
+  padding: 1rem 0;
+  justify-content: center;
+  background: var(--bz-bg);
+  border-bottom: 1px solid var(--bz-border);
+}
+.header-inner--simple { justify-content: center; text-align: center; }
+.page-title {
+  font-size: clamp(1.05rem, 2.6vw, 1.55rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.32;
+  color: var(--bz-text);
+  margin: 0;
+}
+.page-title__sub {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: clamp(0.78rem, 1.6vw, 0.98rem);
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  color: var(--bz-text-muted);
+}
+
+.hero--simple { padding: var(--bz-space-6) 0; }
+.hero-inner--simple {
+  display: flex;
+  justify-content: center;
+}
+.hero-inner--simple .result-form-wrap { width: 100%; max-width: 560px; }
+
+.result-form__buttons { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.result-form__buttons .result-form__submit { flex: 1 1 auto; }
+.result-form__buttons #reset-btn { flex: 0 0 auto; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+
+/* ── 11. LIVE BISE ENGINE — learned from GHS Babi Khel ────────────────────
+   Countdown card · live pill · "Student Result Details" card (blue hero +
+   gold hairline + orange section labels, exactly like the GHS Babi Khel
+   BISE Peshawar card) · Share/Save/Compare actions · comparison modal. */
+
+/* status slot above the form: skeleton / countdown / publishing */
+.bisep-status { max-width: 880px; margin-inline: auto; }
+.sk__note { font-size: var(--bz-fs-xs); color: var(--bz-text-muted); text-align: center; margin-bottom: 0.75rem; }
+.bcmp [data-slot="results"] { display: grid; gap: 0.9rem; }
+
+/* ── live pill (green "LIVE" badge, GHS style) ── */
+.live-pill-wrap { display: flex; justify-content: center; margin-bottom: 1.1rem; }
+.live-pill {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.38rem 0.95rem; border-radius: 999px;
+  font-size: var(--bz-fs-xs); font-weight: 800; letter-spacing: 0.02em;
+  color: var(--bz-accent-2);
+  background: color-mix(in srgb, var(--bz-accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--bz-accent) 38%, transparent);
+}
+.live-pill__dot {
+  width: 0.5rem; height: 0.5rem; border-radius: 50%;
+  background: var(--bz-accent-2);
+  animation: bz-pulse-soft 1.2s ease-in-out infinite;
+}
+
+/* ── big red countdown (GHS: green "TIME REMAINING" + red HH:MM:SS +
+      slow cinematic breathing zoom + realistic alarm-clock icon) ── */
+.bisep-countdown {
+  text-align: center;
+  padding: clamp(1.8rem, 3.4vw, 2.8rem);
+  animation: bz-card-in 0.6s var(--bz-ease) both;
+}
+.bisep-countdown__clock { display: flex; justify-content: center; margin-bottom: 0.9rem; }
+.bisep-countdown__clock svg {
+  width: 86px; height: 86px;
+  filter: drop-shadow(0 12px 24px rgba(245, 185, 66, 0.3));
+}
+.bisep-countdown__label {
+  font-size: 0.95rem; font-weight: 800;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--bz-accent-2);
+  margin-bottom: 0.8rem;
+}
+.bisep-countdown__digits {
+  font-family: var(--bz-mono);
+  font-weight: 800;
+  font-size: clamp(1.9rem, 6.2vw, 3.05rem);
+  letter-spacing: 0.045em;
+  color: var(--bz-danger);
+  font-variant-numeric: tabular-nums;
+}
+.bisep-countdown--running .bisep-countdown__digits { animation: bz-breathe 2.2s ease-in-out infinite; }
+@keyframes bz-breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.055); } }
+.bisep-countdown__text { margin-top: 1rem; font-size: var(--bz-fs-xs); color: var(--bz-text-muted); }
+
+.bisep-publishing {
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  font-weight: 800;
+  color: var(--bz-accent-2);
+  animation: bz-pulse-soft 1.4s ease-in-out infinite;
+}
+.bisep-publishing__sub { margin-top: 0.5rem; font-size: var(--bz-fs-sm); color: var(--bz-text-muted); }
+@keyframes bz-pulse-soft { 50% { opacity: 0.55; } }
+
+/* ── "Student Result Details" card ── */
+.bisecard {
+  position: relative;
+  max-width: 880px;
+  margin-inline: auto;
+  border-radius: calc(var(--bz-radius) + 0.35rem);
+  overflow: hidden;
+  animation: bz-card-in 0.6s var(--bz-ease) both;
+}
+.bisecard__replay { padding: 0.85rem 1rem 0.5rem; text-align: center; }
+.bisecard__replay button {
+  display: inline-flex; align-items: center; gap: 0.32rem;
+  background: none; border: none; cursor: pointer;
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.02em;
+  color: var(--bz-gold-text);
+  transition: color var(--bz-dur);
+}
+.bisecard__replay button:hover { text-decoration: underline; text-underline-offset: 4px; }
+.bisecard__replay .icon { width: 0.8rem; height: 0.8rem; }
+
+.bisecard__hero {
+  position: relative;
+  padding: 1.35rem 1.4rem 1.2rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 45%, #0ea5e9 100%);
+  overflow: hidden;
+}
+.bisecard__hero::before {
+  content: "";
+  position: absolute; inset: 0 0 auto 0; height: 3px;
+  background: linear-gradient(90deg, transparent, #e3b341, transparent);
+}
+.bisecard__hero::after {
+  content: "";
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(220px 220px at 100% 0%, rgba(255, 255, 255, 0.12), transparent 70%),
+    radial-gradient(260px 260px at 0% 115%, rgba(227, 179, 65, 0.22), transparent 70%);
+  pointer-events: none;
+}
+.bisecard__hero-top {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 1rem; position: relative; z-index: 1;
+}
+.bisecard__hero h3 {
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  font-weight: 800; letter-spacing: -0.01em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+.bisecard__rollpill {
+  flex: none; text-align: right;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 1rem;
+  padding: 0.5rem 0.9rem;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.bisecard__rollpill .lbl {
+  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.1em;
+  opacity: 0.85; font-weight: 700;
+}
+.bisecard__rollpill .val {
+  font-family: var(--bz-mono); font-weight: 800;
+  font-size: 1.3rem; letter-spacing: 0.05em;
+  color: #fde68a;
+}
+.bisecard__chips {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  margin-top: 0.75rem; position: relative; z-index: 1;
+}
+.bisecard__chip {
+  display: inline-flex; max-width: 100%;
+  padding: 0.3rem 0.78rem; border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.66rem; font-weight: 800; letter-spacing: 0.08em;
+  text-transform: uppercase; line-height: 1.4;
+  overflow-wrap: anywhere; text-align: left;
+}
+.bisecard__stamp {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.3rem 0.78rem; border-radius: 999px;
+  font-size: 0.66rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase;
+}
+.bisecard__stamp--pass { color: #d1fae5; background: rgba(16, 185, 129, 0.32); border: 1px solid rgba(110, 231, 183, 0.5); }
+.bisecard__stamp--fail { color: #fee2e2; background: rgba(239, 68, 68, 0.34); border: 1px solid rgba(252, 165, 165, 0.5); }
+
+.bisecard__section { padding: 1.1rem 1.4rem; border-bottom: 1px solid var(--bz-border); }
+.bisecard__label {
+  font-size: 0.72rem; font-weight: 800;
+  letter-spacing: 0.11em; text-transform: uppercase;
+  color: #c2410c;
+  margin-bottom: 0.6rem;
+}
+html[data-theme="dark"] .bisecard__label { color: #fb923c; }
+
+.bisecard__info { border: 1px solid var(--bz-border); border-radius: var(--bz-radius-sm); overflow: hidden; }
+.bisecard__info-row {
+  display: grid; grid-template-columns: minmax(110px, 38%) 1fr; gap: 0.8rem;
+  padding: 0.62rem 0.95rem;
+}
+.bisecard__info-row + .bisecard__info-row { border-top: 1px solid var(--bz-border); }
+.bisecard__info-row:nth-child(even) { background: color-mix(in srgb, var(--bz-bg) 26%, transparent); }
+.bisecard__info-row .k {
+  font-weight: 800; color: var(--bz-text-muted);
+  font-size: 0.8rem; letter-spacing: 0.02em;
+}
+.bisecard__info-row .v { font-weight: 700; font-size: 0.94rem; overflow-wrap: anywhere; }
+.bisecard__info-row .v--bold { font-weight: 800; color: #ea580c; font-size: 1.04rem; }
+html[data-theme="dark"] .bisecard__info-row .v--bold { color: #fb923c; }
+.bisecard__info-row .v--accent { font-weight: 800; color: #c2410c; }
+html[data-theme="dark"] .bisecard__info-row .v--accent { color: #fb923c; }
+
+/* thin subject progress bars (GHS "Bar" column) */
+.marks .bar-track {
+  height: 6px; min-width: 110px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bz-bg) 32%, transparent);
+  overflow: hidden;
+  display: block;
+}
+.marks .bar-fill {
+  display: block; height: 100%; border-radius: inherit;
+  transform-origin: left center;
+  background: linear-gradient(90deg, #2563eb, #38bdf8);
+}
+.marks .bar-fill.is-fail { background: linear-gradient(90deg, #ef4444, #f87171); }
+.marks .bar-fill.is-anim { animation: bz-bar-grow 0.9s var(--bz-ease) both; }
+@keyframes bz-bar-grow { from { transform: scaleX(0); } }
+.marks th.col-bar { text-align: center; }
+.marks td.cell-bar { text-align: center; }
+.marks td.cell-num { text-align: center; }
+
+/* action rows — Share · Save · Compare (GHS 3-button row) */
+.bisecard__actions {
+  padding: 1rem 1.4rem;
+  background: linear-gradient(90deg,
+    color-mix(in srgb, #2563eb 7%, transparent),
+    transparent 42%,
+    color-mix(in srgb, #38bdf8 7%, transparent));
+  border-bottom: 1px solid var(--bz-border);
+}
+.bisecard__actions-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.55rem; }
+.bisecard__actions-row--secondary { margin-top: 0.55rem; }
+.bisecard__actions .btn { padding: 0.62rem 0.5rem; font-size: 0.85rem; border-radius: 0.7rem; }
+.btn--share {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb, #0ea5e9);
+  --btn-3d: #1e40af;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.18),
+    0 5px 0 #1e40af,
+    0 14px 28px -10px rgba(37, 99, 235, 0.65);
+  color: #fff;
+}
+.btn--share:hover {
+  filter: brightness(1.07);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.18),
+    0 7px 0 #1e40af,
+    0 22px 36px -12px rgba(37, 99, 235, 0.7);
+}
+.btn--share:active {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 0 #1e40af, 0 5px 12px -8px rgba(37, 99, 235, 0.6);
+}
+.btn--outlineblue {
+  color: #1d4ed8;
+  background: transparent;
+  border: 1.5px solid rgba(37, 99, 235, 0.45);
+  box-shadow: none;
+}
+html[data-theme="dark"] .btn--outlineblue { color: #93c5fd; border-color: rgba(147, 197, 253, 0.4); }
+.btn--outlineblue:hover { background: color-mix(in srgb, #2563eb 9%, transparent); border-color: #2563eb; color: #1d4ed8; box-shadow: 0 10px 22px -12px rgba(37, 99, 235, 0.55); }
+html[data-theme="dark"] .btn--outlineblue:hover { color: #bfdbfe; border-color: #93c5fd; }
+.btn--outlineblue:active { transform: translateY(1px) scale(0.99); box-shadow: none; }
+.btn.is-busy { pointer-events: none; opacity: 0.75; }
+.btn.is-busy .icon { display: none; }
+.btn.is-busy::before {
+  content: "";
+  width: 1.05em; height: 1.05em;
+  border-radius: 50%;
+  border: 2.5px solid color-mix(in srgb, currentColor 35%, transparent);
+  border-top-color: currentColor;
+  animation: bz-spin 0.7s linear infinite;
+}
+
+.bisecard__note { padding: 0.95rem 1.4rem 1.25rem; font-size: var(--bz-fs-xs); color: var(--bz-text-muted); }
+
+/* not-found: "try the board directly" line (GHS amber-card feature) */
+.notfound__direct {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  margin-top: 0.4rem;
+  font-size: var(--bz-fs-xs); font-weight: 700;
+  color: var(--bz-accent-2);
+  text-decoration: none;
+}
+.notfound__direct:hover { text-decoration: underline; text-underline-offset: 4px; }
+.notfound__direct .icon { width: 0.85rem; height: 0.85rem; }
+
+/* ── comparison modal (GHS Compare Results) ── */
+.bcmp { position: fixed; inset: 0; z-index: 220; display: flex; align-items: flex-start; justify-content: center; padding: 0.9rem; overflow-y: auto; }
+.bcmp__backdrop { position: fixed; inset: 0; background: rgba(2, 6, 16, 0.66); backdrop-filter: blur(3px); animation: bz-fade-in 0.25s ease both; }
+@keyframes bz-fade-in { from { opacity: 0; } }
+.bcmp__panel {
+  position: relative; width: 100%; max-width: 580px;
+  margin: 2.2rem 0 3rem;
+  overflow: hidden;
+  animation: bz-card-in 0.45s var(--bz-ease) both;
+}
+.bcmp__head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid var(--bz-border);
+}
+.bcmp__head-title { display: flex; align-items: center; gap: 0.55rem; }
+.bcmp__head-title .icon { width: 1.15rem; height: 1.15rem; color: #2563eb; }
+html[data-theme="dark"] .bcmp__head-title .icon { color: #93c5fd; }
+.bcmp__head-title h3 { font-size: 1.02rem; font-weight: 800; }
+.bcmp__head-actions { display: flex; align-items: center; gap: 0.2rem; }
+.bcmp__iconbtn {
+  width: 2.05rem; height: 2.05rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%; border: none; cursor: pointer;
+  background: transparent; color: var(--bz-text);
+  transition: background-color var(--bz-dur);
+}
+.bcmp__iconbtn:hover { background: color-mix(in srgb, var(--bz-bg) 32%, transparent); }
+.bcmp__iconbtn .icon { width: 1rem; height: 1rem; }
+.bcmp__iconbtn--share { color: #2563eb; }
+html[data-theme="dark"] .bcmp__iconbtn--share { color: #93c5fd; }
+.bcmp__body { padding: 1.2rem; display: grid; gap: 0.9rem; }
+.bcmp__inputs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.7rem; align-items: end; }
+.bcmp__inputs .field { min-width: 0; }
+.bcmp__vs { font-size: 0.72rem; font-weight: 800; color: var(--bz-text-muted); padding-bottom: 0.85rem; }
+.bcmp__err { font-size: var(--bz-fs-xs); font-weight: 700; color: var(--bz-danger); text-align: center; }
+.bcmp__brand {
+  text-align: center; font-size: 0.68rem; font-weight: 800;
+  letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--bz-text-muted);
+}
+.bcmp__cards { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+.bcmp-card {
+  border: 1px solid var(--bz-border); border-radius: var(--bz-radius-sm);
+  padding: 0.85rem 0.75rem; text-align: center;
+  background: color-mix(in srgb, var(--bz-bg) 32%, transparent);
+  min-width: 0;
+}
+.bcmp-card.is-leader {
+  border-color: color-mix(in srgb, var(--bz-accent) 55%, transparent);
+  background: color-mix(in srgb, var(--bz-accent) 10%, transparent);
+}
+.bcmp-card__lead-badge {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--bz-accent-2); margin-bottom: 0.3rem;
+}
+.bcmp-card__lead-badge .icon { width: 0.75rem; height: 0.75rem; color: var(--bz-warn); }
+.bcmp-card__name {
+  font-weight: 800; font-size: 0.92rem; line-height: 1.3; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.bcmp-card__roll { font-family: var(--bz-mono); font-size: 0.72rem; color: var(--bz-text-muted); margin-top: 0.1rem; }
+.bcmp-card__pct { font-size: 1.55rem; font-weight: 800; color: #2563eb; margin-top: 0.25rem; font-variant-numeric: tabular-nums; }
+html[data-theme="dark"] .bcmp-card__pct { color: #93c5fd; }
+.bcmp-card__grade { font-size: var(--bz-fs-xs); color: var(--bz-text-muted); }
+.bcmp__lead-line { text-align: center; font-size: var(--bz-fs-xs); font-weight: 700; color: var(--bz-text-muted); }
+.bcmp__lead-line strong { color: var(--bz-accent-2); }
+.bcmp__tally-line {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.4rem 1rem;
+  font-size: 0.72rem; font-weight: 700; color: var(--bz-text-muted);
+}
+.bcmp__tally-line .dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; margin-right: 0.3rem; vertical-align: middle; }
+.bcmp__chartwrap {
+  border: 1px solid var(--bz-border); border-radius: var(--bz-radius-sm);
+  padding: 0.85rem 0.9rem 0.4rem;
+  background: color-mix(in srgb, var(--bz-bg) 30%, transparent);
+}
+.bcmp__chartwrap .cap {
+  font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--bz-text-muted); text-align: center; margin-bottom: 0.6rem;
+}
+.bcmp-chart-row { display: grid; grid-template-columns: 108px 1fr 84px; gap: 0.55rem; align-items: center; padding: 0.28rem 0; }
+.bcmp-chart-row .lbl { font-size: 0.72rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bcmp-chart-row .bars { display: grid; gap: 3px; }
+.bcmp-chart-row .bar { height: 9px; border-radius: 0 4px 4px 0; transform-origin: left center; animation: bz-bar-grow 0.8s var(--bz-ease) both; }
+.bcmp-chart-row .bar--a { background: #2563eb; }
+.bcmp-chart-row .bar--b { background: #38bdf8; }
+.bcmp-chart-row .vals { display: grid; gap: 3px; font-size: 0.68rem; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; color: var(--bz-text-muted); }
+.bcmp__tablewrap { border: 1px solid var(--bz-border); border-radius: var(--bz-radius-sm); overflow: hidden; overflow-x: auto; }
+.bcmp__tablewrap table { width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 420px; }
+.bcmp__tablewrap th, .bcmp__tablewrap td { padding: 0.55rem 0.7rem; text-align: center; }
+.bcmp__tablewrap thead th {
+  background: color-mix(in srgb, var(--bz-bg) 40%, var(--bz-surface-solid));
+  font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--bz-text-muted);
+  border-bottom: 1px solid var(--bz-border-strong);
+  text-align: center;
+}
+.bcmp__tablewrap thead th:first-child { text-align: left; }
+.bcmp__tablewrap tbody tr + tr { border-top: 1px solid var(--bz-border); }
+.bcmp__tablewrap tbody tr:nth-child(even) { background: color-mix(in srgb, var(--bz-bg) 22%, transparent); }
+.bcmp__tablewrap td:first-child { text-align: left; font-weight: 650; overflow-wrap: anywhere; }
+.bcmp__tablewrap .win { color: var(--bz-accent-2); font-weight: 800; }
+.bcmp__tablewrap .mini { display: block; height: 4px; border-radius: 999px; background: color-mix(in srgb, var(--bz-bg) 30%, transparent); overflow: hidden; margin-top: 0.3rem; }
+.bcmp__tablewrap .mini > i { display: block; height: 100%; border-radius: inherit; }
+.bcmp__tie { text-align: center; font-size: var(--bz-fs-xs); font-weight: 700; color: var(--bz-text-muted); }
+
+/* celebration canvas */
+.bz-confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 300; }
+
+@media (max-width: 560px) {
+  .bisecard__hero-top { flex-wrap: wrap; }
+  .bisecard__info-row { grid-template-columns: 1fr; gap: 0.12rem; }
+  .bcmp__inputs { grid-template-columns: 1fr; }
+  .bcmp__vs { padding: 0; text-align: center; }
+  .bcmp-chart-row { grid-template-columns: 88px 1fr 70px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bisep-countdown--running .bisep-countdown__digits,
+  .bisep-publishing,
+  .live-pill__dot { animation: none; }
+  .marks .bar-fill.is-anim,
+  .bcmp-chart-row .bar { animation: none; }
+}
+
+@media print {
+  .ticker, .bisecard__actions, .bisecard__replay, .bcmp, .bz-confetti,
+  .result-form, .bisep-status, .live-pill-wrap, .notfound__direct { display: none !important; }
+  .bisecard, .bisecard__hero, .marks .bar-fill { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .bisecard, .bisecard__hero { box-shadow: none; }
+}
+
+@media print {
+  .site-header--simple { display: none !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- ====== 3D BACKGROUND SCENE (fixed, decorative) ====== -->
+<div class="bg3d" aria-hidden="true">
+  <div class="blob blob--1"></div>
+  <div class="blob blob--2"></div>
+  <div class="blob blob--3"></div>
+  <div class="blob blob--4"></div>
+  <span class="bubble bubble--1"></span>
+  <span class="bubble bubble--2"></span>
+  <span class="bubble bubble--3"></span>
+  <span class="bubble bubble--4"></span>
+  <span class="bubble bubble--5"></span>
+  <span class="bubble bubble--6"></span>
+  <span class="bubble bubble--7"></span>
+  <div class="bg3d__grid"></div>
+</div>
+<!-- ══════════════════════════════════════════════════════════════════
+     SVG ICON SPRITE — one hidden sprite, reused everywhere via <use>.
+     Zero icon requests, perfectly crisp at any DPI, themable by
+     currentColor. Decorative icons are aria-hidden.
+     ════════════════════════════════════════════════════════════════ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2.5 9.5 12 5l9.5 4.5L12 14z"/><path d="M6.5 11.8v4.2c0 1.9 2.5 3.3 5.5 3.3s5.5-1.4 5.5-3.3v-4.2"/><path d="M21.5 9.5v5.7"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5.2c0 4.5-2.9 7.5-7 9-4.1-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-printer" viewBox="0 0 24 24"><path d="M7 8V3.5h10V8"/><rect x="3.5" y="8" width="17" height="8.5" rx="2"/><path d="M7 14h10v6.5H7z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V13M12 16.4h.01"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11.5" height="11.5" rx="2"/><path d="M5.5 15h-1A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h9A1.5 1.5 0 0 1 15 4.5v1"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 9.5a6 6 0 1 0-12 0c0 6-2.4 7-2.4 7h16.8s-2.4-1-2.4-7"/><path d="M10.3 20a2 2 0 0 0 3.4 0"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 1 2.3 5.6"/><path d="M4 20.5V15h5.5"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7 4h10v4.5a5 5 0 0 1-10 0z"/><path d="M7 5H4.5v2A3.6 3.6 0 0 0 8 10.6M17 5h2.5v2A3.6 3.6 0 0 1 16 10.6"/><path d="M12 13.5V17M8.5 20.5h7M10 17h4"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5 10 18 19.5 6.5"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.6"/><circle cx="17.5" cy="5.5" r="2.6"/><circle cx="17.5" cy="18.5" r="2.6"/><path d="M8.4 10.8l6.8-4M8.4 13.2l6.8 4"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5V15"/><path d="M7 10l5 5 5-5"/><path d="M4.5 20.5h15"/></symbol>
+  <symbol id="i-compare" viewBox="0 0 24 24"><rect x="3" y="3" width="12" height="13" rx="2"/><rect x="9" y="8" width="12" height="13" rx="2"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.8z"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ANNOUNCEMENT TICKER - pure green bar, content driven by the live title -->
+<div class="ticker" role="region" aria-label="Live announcements - BISE Peshawar results">
+  <div class="ticker__viewport">
+    <div class="ticker__track" id="ticker-track">
+      <span data-ticker-live>BISE Peshawar result status - loading live data…</span>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════ TITLE BLOCK ═════════════════════════ -->
+<header class="site-header site-header--simple" id="site-header">
+  <div class="container header-inner header-inner--simple">
+    <p class="page-title">
+      Board of Intermediate &amp; Secondary Education Peshawar
+      <span class="page-title__sub">Online Results System</span>
+    </p>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ══════════════════════════ RESULT FORM ═══════════════════════ -->
+  <section class="hero hero--simple" id="home" aria-labelledby="hero-title">
+    <h1 class="sr-only" id="hero-title">BISE Peshawar Online Results System</h1>
+
+    <div class="container hero-inner hero-inner--simple">
+      <div class="result-form-wrap reveal" id="check-result">
+        <div class="bisep-status" id="bisep-status" hidden></div>
+
+        <form class="result-form glass" id="result-form" action="#result-view" method="get" novalidate>
+          <div class="result-form__head">
+            <svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg>
+            <div>
+              <h2 id="live-title">Result — Loading…</h2>
+              <p>Live from BISE Peshawar · cloud.bisep.edu.pk</p>
+            </div>
+          </div>
+          <div class="live-pill-wrap" id="live-pill-wrap" hidden>
+            <span class="live-pill"><span class="live-pill__dot"></span>BISE Peshawar result is LIVE</span>
+          </div>
+          <div class="form-grid">
+            <div class="field field--full">
+              <label for="roll">Roll No</label>
+              <input id="roll" name="roll" type="text" inputmode="numeric" autocomplete="off" spellcheck="false"
+                     placeholder="e.g. 703902" maxlength="10" aria-describedby="roll-hint" required>
+              <p class="field-hint" id="roll-hint">
+                As printed on your BISEP admit card · press <kbd>/</kbd> anywhere to focus
+              </p>
+            </div>
+            <p class="form-error field--full" id="form-error" role="alert">
+              <svg class="icon" aria-hidden="true"><use href="#i-alert"/></svg>
+              <span id="form-error-text">Please enter a valid roll number (4–10 digits).</span>
+            </p>
+            <div class="field--full result-form__buttons">
+              <button class="btn btn--block result-form__submit" id="submit-btn" type="submit">
+                <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+                <span id="btn-label">Search Result</span>
+              </button>
+              <button class="btn btn--ghost" id="reset-btn" type="button">
+                Reset
+              </button>
+            </div>
+          </div>
+          <p class="form-footnote">
+            <svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>
+            Live board data · secured by strict content-security policy
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ RESULT OUTPUT (JS renders here) ═════ -->
+  <section id="result-view" class="container cv-none" tabindex="-1" role="region" aria-live="polite" aria-label="Your result"></section>
+
+  <!-- ══════════════════════════ BISE STATUS TEMPLATES ═════════════ -->
+  <!-- countdown while the board has NOT announced (search form hidden) -->
+  <template id="tpl-countdown">
+    <div class="bisep-countdown glass" role="timer" aria-label="Time remaining until the result is announced">
+      <span class="bisep-countdown__clock" data-slot="clock"></span>
+      <p class="bisep-countdown__label">Time Remaining</p>
+      <p class="bisep-countdown__digits" data-slot="digits">00h 00m 00s</p>
+      <p class="bisep-countdown__text" data-slot="text"></p>
+    </div>
+  </template>
+
+  <!-- shown for the moment between countdown-zero and the board going live -->
+  <template id="tpl-publishing">
+    <div class="bisep-countdown glass">
+      <p class="bisep-publishing">🎉 Publishing Now…</p>
+      <p class="bisep-publishing__sub">Results will appear in seconds!</p>
+    </div>
+  </template>
+
+  <!-- ══════════════════════════ "STUDENT RESULT DETAILS" CARD ═══════════════ -->
+  <template id="tpl-bise">
+    <article class="bisecard glass" aria-labelledby="bc-title">
+      <p class="bisecard__replay">
+        <button type="button" data-action="replay">
+          <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+          Replay the reveal
+        </button>
+      </p>
+
+      <header class="bisecard__hero">
+        <div class="bisecard__hero-top">
+          <h3 id="bc-title">Student Result Details</h3>
+          <div class="bisecard__rollpill">
+            <p class="lbl">Roll Number</p>
+            <p class="val" data-slot="roll">—</p>
+          </div>
+        </div>
+        <div class="bisecard__chips">
+          <span class="bisecard__chip" data-slot="examchip">—</span>
+          <span class="bisecard__stamp" data-slot="stamp">Passed</span>
+        </div>
+      </header>
+
+      <section class="bisecard__section">
+        <p class="bisecard__label">Candidate Information</p>
+        <div class="bisecard__info" data-slot="info-rows"></div>
+      </section>
+
+      <section class="bisecard__section" data-slot="subjects-wrap">
+        <p class="bisecard__label">Subject Wise Marks</p>
+        <div class="marks-wrap">
+          <table class="marks">
+            <thead>
+              <tr>
+                <th scope="col" class="cell-num">#</th>
+                <th scope="col">Subject</th>
+                <th scope="col" class="col-bar">Bar</th>
+                <th scope="col" class="cell-num">Theory</th>
+                <th scope="col" class="cell-num">Practical</th>
+              </tr>
+            </thead>
+            <tbody data-slot="subject-rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="bisecard__actions">
+        <div class="bisecard__actions-row">
+          <button type="button" class="btn btn--share" data-action="share">
+            <svg class="icon" aria-hidden="true"><use href="#i-share"/></svg>Share
+          </button>
+          <button type="button" class="btn btn--outlineblue" data-action="save">
+            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Save
+          </button>
+          <button type="button" class="btn btn--outlineblue" data-action="compare">
+            <svg class="icon" aria-hidden="true"><use href="#i-compare"/></svg>Compare
+          </button>
+        </div>
+        <div class="bisecard__actions-row bisecard__actions-row--secondary">
+          <button type="button" class="btn btn--ghost btn--sm" data-action="print">
+            <svg class="icon" aria-hidden="true"><use href="#i-printer"/></svg>Print / PDF
+          </button>
+          <button type="button" class="btn btn--ghost btn--sm" data-action="copy">
+            <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>Copy Summary
+          </button>
+          <button type="button" class="btn btn--ghost btn--sm" data-action="reset">
+            <svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Check Another Roll
+          </button>
+        </div>
+      </div>
+
+      <p class="bisecard__note">
+        Computer-generated provisional online result — errors and omissions excepted. The original certificate
+        issued by BISE Peshawar through your institution is the authoritative document.
+      </p>
+    </article>
+  </template>
+
+  <!-- ══════════════════════════ COMPARE MODAL ════════════════════ -->
+  <template id="tpl-compare">
+    <div class="bcmp">
+      <div class="bcmp__backdrop" data-action="bcmp-close"></div>
+      <div class="bcmp__panel glass" role="dialog" aria-modal="true" aria-label="Compare two results">
+        <header class="bcmp__head">
+          <div class="bcmp__head-title">
+            <svg class="icon" aria-hidden="true"><use href="#i-compare"/></svg>
+            <h3>Compare Results</h3>
+          </div>
+          <div class="bcmp__head-actions">
+            <button type="button" class="bcmp__iconbtn bcmp__iconbtn--share" data-action="bcmp-share" hidden
+                    aria-label="Share comparison" title="Share comparison">
+              <svg class="icon" aria-hidden="true"><use href="#i-share"/></svg>
+            </button>
+            <button type="button" class="bcmp__iconbtn" data-action="bcmp-close" aria-label="Close" title="Close">
+              <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+            </button>
+          </div>
+        </header>
+        <div class="bcmp__body">
+          <div class="bcmp__inputs">
+            <div class="field">
+              <label for="bcmp-roll-a">Roll Number</label>
+              <input id="bcmp-roll-a" data-slot="roll-a" type="text" inputmode="numeric" autocomplete="off"
+                     spellcheck="false" placeholder="e.g. 703902" maxlength="10">
+            </div>
+            <span class="bcmp__vs">VS</span>
+            <div class="field">
+              <label for="bcmp-roll-b">Roll Number</label>
+              <input id="bcmp-roll-b" data-slot="roll-b" type="text" inputmode="numeric" autocomplete="off"
+                     spellcheck="false" placeholder="e.g. 654321" maxlength="10">
+            </div>
+          </div>
+          <button type="button" class="btn btn--block" data-action="bcmp-run">
+            <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <span>Compare</span>
+          </button>
+          <p class="bcmp__err" data-slot="err-a" hidden></p>
+          <p class="bcmp__err" data-slot="err-b" hidden></p>
+          <div data-slot="results" hidden>
+            <p class="bcmp__brand" data-slot="brand"></p>
+            <div class="bcmp__cards" data-slot="headline"></div>
+            <p class="bcmp__lead-line" data-slot="lead"></p>
+            <div class="bcmp__tally-line" data-slot="tally"></div>
+            <div data-slot="chart"></div>
+            <div class="bcmp__tablewrap" data-slot="table"></div>
+            <p class="bcmp__tie" data-slot="tie" hidden>Both candidates are tied overall.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <!-- ══════════════════════════ NOT-FOUND ═════════════════════════ -->
+  <template id="tpl-notfound">
+    <article class="notfound glass">
+      <span class="notfound__icon"><svg class="icon" aria-hidden="true"><use href="#i-alert"/></svg></span>
+      <h3>No Result Found</h3>
+      <p data-slot="message">…</p>
+      <p class="notfound__meta">Roll number checked: <strong class="searched" data-slot="roll">—</strong> · <span data-slot="exam">—</span></p>
+      <ul>
+        <li>Verify the roll number printed on your BISEP admit card or roll slip.</li>
+        <li>The board rejects some requests when many students check at once — wait a few seconds and search again.</li>
+      </ul>
+      <p>
+        <a class="notfound__direct" data-slot="direct" href="https://cloud.bisep.edu.pk/" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg>Try directly on BISE Peshawar
+        </a>
+      </p>
+      <button type="button" class="btn btn--sm" data-action="reset">
+        <svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Try Again
+      </button>
+    </article>
+  </template>
+
+  </main>
+
+<!-- ══════════════════════════ FOOTER ══════════════════════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer__line">Copyright © 2026 BISE Peshawar&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Cloud Services 11</p>
+  </div>
+</footer>
+
+<div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+<script>
+/* ══════════════════════════════════════════════════════════════════════
+   BISE PESHAWAR ONLINE RESULTS SYSTEM — cloud.bisep.edu.pk
+   Application engine v2 · vanilla ES2020+ · zero dependencies
+   ─────────────────────────────────────────────────────────────────────
+   LIVE BISE PESHAWAR ENGINE — ported 1:1 from the GHS Babi Khel website
+   (Results.tsx + /api/bisep-proxy v5 "board-rejection-proof"):
+   • ?mode=current poll (adaptive 15s / 5s / 1s near a countdown's end)
+     → live exam title, countdown date, is_live flag, announcement line
+   • Big red "TIME REMAINING" countdown + realistic alarm-clock icon
+     while the board has not announced; the search form is HIDDEN and
+     reappears automatically the moment results go live (no refresh)
+   • Green "BISE Peshawar result is LIVE" pill
+   • Roll search → /api/bisep-proxy?roll= (warmed board session with
+     PHPSESSID + ResultToken + X-Requested-With over HTTP/2, 5 spaced
+     upstream retries, relay chain, last-good cache — all server-side)
+   • 24h on-device localStorage cache of final marksheets (zero-request
+     repeat lookups) + client-side spaced retries on "board busy" with
+     an honest "Board busy — retrying (1/2)…" hint inside the button
+   • "Student Result Details" card: Candidate Information + Subject
+     Wise Marks with Theory/Practical fail detection and HSSC/SSC fixed
+     maximums (thin progress bars), Share / Save / Compare buttons
+   • Share → professionally drawn 1080px PNG card via the OS share
+     sheet with the site link in the caption; Save → PNG download
+   • Compare → two roll numbers side by side (side A pre-filled),
+     overall % leader badge, subject tally + chart + table, shareable
+     comparison card
+   • Celebration — gold confetti + chime on pass, calm teal drift on
+     fail, "Replay the reveal" chip (reduced-motion aware)
+   Security notes (unchanged):
+   • All dynamic values inserted with .textContent / createElement —
+     never innerHTML with board or user data. Structurally XSS-proof.
+   • Templates cloned from inert <template> elements.
+   • URL ?roll= deep links still work (SearchAction compatible).
+   ────────────────────────────────────────────────────────────────── */
+(function () {
+  'use strict';
+
+  document.documentElement.classList.add('js');
+
+  /* ── tiny helpers ─────────────────────────────────────────────────── */
+  var $ = function (sel, ctx) { return (ctx || document).querySelector(sel); };
+  var $$ = function (sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); };
+  var el = function (tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+  var REDUCED_MOTION = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ══════════════════════════════════════════════════════════════════
+     CONFIG — the only two values you may need to touch
+     ══════════════════════════════════════════════════════════════════ */
+  /* Same-origin (Vercel: site + /api in ONE project) → leave "".
+     Static host (cPanel/Apache/NGINX) + proxy on Vercel/Node elsewhere →
+     set to the proxy origin, e.g. "https://your-app.vercel.app"
+     (no trailing slash; the CSP already allows https: connections). */
+  var BISEP_PROXY_BASE = '';
+
+  /* Used only until the first successful ?mode=current response arrives
+     (or while the board is unreachable) — the page always shows
+     SOMETHING sensible, exactly like GHS Babi Khel's FALLBACK_TITLE. */
+  var FALLBACK_TITLE = 'SSC & HSSC Annual Examination 2026';
+
+  var SITE_NAME = 'BISE Peshawar Online Results System';
+  var SITE_URL = (location.origin && location.origin !== 'null' ? location.origin : 'https://cloud.bisep.edu.pk') + '/';
+
+  function proxyURL(params) {
+    return (BISEP_PROXY_BASE || '') + '/api/bisep-proxy' + (params || '');
+  }
+
+  /* ── toasts ───────────────────────────────────────────────────────── */
+  function toast(msg, type) {
+    var region = $('#toast-region');
+    if (!region) return;
+    var t = el('button', 'toast' + (type === 'error' ? ' toast--error' : ''));
+    t.type = 'button';
+    t.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#' +
+      (type === 'error' ? 'i-alert' : 'i-check') + '"/></svg>';
+    t.appendChild(document.createTextNode(msg));
+    t.addEventListener('click', function () { t.remove(); });
+    region.appendChild(t);
+    setTimeout(function () {
+      t.classList.add('is-out');
+      setTimeout(function () { t.remove(); }, 320);
+    }, 3400);
+  }
+
+  /* ── form validation ──────────────────────────────────────────────── */
+  var formError, formErrorText, rollInput;
+  function showFormError(msg) {
+    if (!formError || !formErrorText) return;
+    formErrorText.textContent = msg;
+    formError.classList.add('is-visible');
+    rollInput.setAttribute('aria-invalid', 'true');
+    rollInput.focus();
+  }
+  function clearFormError() {
+    if (formError) formError.classList.remove('is-visible');
+    if (rollInput) rollInput.removeAttribute('aria-invalid');
+  }
+
+  function legacyCopy(text, done) {
+    var ta = el('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:fixed;left:-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); done(); } catch (e) { toast('Copy is not available in this browser', 'error'); }
+    ta.remove();
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     GHS-LEARNED FETCH LAYER
+     ══════════════════════════════════════════════════════════════════ */
+
+  /* fetch() retry — a raw fetch() to the proxy has no retry of its own;
+     on a slow or flaky mobile connection a single dropped packet used to
+     fall straight through to "No Result Found" even though the student
+     genuinely has a result. 2–3 short retries (fast — foreground search),
+     treating gateway 5xx/429 as retryable (Vercel cold starts). */
+  function fetchWithRetryFn(url, attempts) {
+    attempts = attempts || 3;
+    var lastErr = null;
+    var attempt = function (i) {
+      return fetch(url, { headers: { Accept: 'application/json' } }).then(function (resp) {
+        if (resp.ok || (resp.status < 500 && resp.status !== 429)) return resp;
+        lastErr = new Error('HTTP ' + resp.status);
+        throw lastErr;
+      }, function (err) { lastErr = err; throw err; }).catch(function (err) {
+        if (i < attempts - 1) {
+          return new Promise(function (r) { setTimeout(r, 400 * (i + 1)); }).then(function () { return attempt(i + 1); });
+        }
+        throw err;
+      });
+    };
+    return attempt(0);
+  }
+
+  /* ── on-device marksheet cache (GHS v5) ─────────────────────────────
+     Board marksheets are FINAL once published, so every found result is
+     cached in localStorage for 24h, keyed by exam + roll. Repeat
+     lookups (re-opening the result, comparing, friends opening the same
+     roll) become ZERO-request hits. Guarded parse/serialize throughout
+     — private-mode Safari, quota errors and JSON corruption must never
+     break a search. */
+  var CACHE_PREFIX = 'bisep-result:';
+  var CACHE_TTL = 24 * 60 * 60 * 1000;
+
+  function cacheKey(examKey, roll) {
+    var exam = String(examKey || 'unknown').replace(/[^a-zA-Z0-9]+/g, '-').slice(0, 60);
+    return CACHE_PREFIX + exam + ':' + roll;
+  }
+
+  function cacheGet(examKey, roll) {
+    try {
+      var raw = localStorage.getItem(cacheKey(examKey, roll));
+      if (!raw) return null;
+      var parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== 'object' || !parsed.r || typeof parsed.t !== 'number') {
+        localStorage.removeItem(cacheKey(examKey, roll));
+        return null;
+      }
+      if (Date.now() - parsed.t > CACHE_TTL) {
+        localStorage.removeItem(cacheKey(examKey, roll));
+        return null;
+      }
+      if (!Array.isArray(parsed.r.subjects) || !parsed.r.roll_no) {
+        localStorage.removeItem(cacheKey(examKey, roll));
+        return null;
+      }
+      return parsed.r;
+    } catch (e) { return null; }
+  }
+
+  function cacheSet(examKey, roll, result) {
+    try {
+      localStorage.setItem(cacheKey(examKey, roll), JSON.stringify({ t: Date.now(), r: result }));
+    } catch (e) { /* quota / private mode — cache is best-effort only */ }
+  }
+
+  /* "Board busy" — the proxy answers busy only after 5 spaced upstream
+     attempts all failed (the board's probabilistic 403 filter); this
+     client layer adds two more spaced retries so a single search almost
+     never surfaces the busy message to a student. */
+  var BUSY_RE = /too many requests|wait a few seconds/i;
+
+  /* Shared fetch — used by the search box AND the Compare modal so both
+     go through the exact same defensive parsing (never throws on a
+     malformed proxy response) and the same normalized result shape. */
+  function fetchBiseResult(roll, opts) {
+    var examKey = (opts && opts.examKey) || 'unknown';
+    var onBusyRetry = opts && opts.onBusyRetry;
+
+    var hit = cacheGet(examKey, roll);
+    if (hit) return Promise.resolve({ status: 'found', result: hit, cached: true });
+
+    var BUSY_RETRY_DELAYS = [1600, 2400];
+    var last = null;
+
+    /* retryable failure — network error or malformed/empty proxy payload:
+       brief spaced retry, same as busy (GHS v5 behaviour). */
+    var retryableFail = function (i) {
+      last = { status: 'error', message: "Couldn't reach BISE Peshawar right now. Please try again." };
+      if (i >= BUSY_RETRY_DELAYS.length) return Promise.resolve(last);
+      if (onBusyRetry) onBusyRetry(i + 1, BUSY_RETRY_DELAYS.length);
+      return new Promise(function (r) { setTimeout(r, BUSY_RETRY_DELAYS[i]); }).then(function () { return attempt(i + 1); });
+    };
+
+    var attempt = function (i) {
+      return fetchWithRetryFn(proxyURL('?roll=' + encodeURIComponent(roll)))
+        .then(function (resp) { return resp.json(); })
+        .then(function (raw) {
+          var data = (raw && typeof raw === 'object') ? raw : null;
+
+          if (data && data.found === true) {
+            var safeSubjects = Array.isArray(data.subjects)
+              ? data.subjects.filter(function (s) { return s != null && typeof s === 'object'; }).map(function (s) {
+                  return {
+                    sr: typeof s.sr === 'string' ? s.sr : String(s.sr == null ? '' : s.sr),
+                    subject: typeof s.subject === 'string' ? s.subject : String(s.subject == null ? '' : s.subject),
+                    theory: typeof s.theory === 'string' ? s.theory : String(s.theory == null ? '' : s.theory),
+                    practical: typeof s.practical === 'string' ? s.practical : String(s.practical == null ? '' : s.practical),
+                    theory_fail: s.theory_fail === true,
+                    practical_fail: s.practical_fail === true
+                  };
+                })
+              : [];
+            var result = {
+              roll_no: typeof data.roll_no === 'string' ? data.roll_no : roll,
+              name: typeof data.name === 'string' ? data.name : '',
+              father_name: typeof data.father_name === 'string' ? data.father_name : '',
+              marks: typeof data.marks === 'string' ? data.marks : '',
+              grade: typeof data.grade === 'string' ? data.grade : '',
+              remarks: typeof data.remarks === 'string' ? data.remarks : '',
+              collect_dmc_from: typeof data.collect_dmc_from === 'string' ? data.collect_dmc_from : '',
+              subjects: safeSubjects
+            };
+            cacheSet(examKey, roll, result);
+            return { status: 'found', result: result };
+          }
+
+          var message = (data && typeof data.message === 'string' && data.message)
+            ? data.message
+            : (data && typeof data.error === 'string' ? data.error : '');
+
+          /* Board busy — one of the few transient outcomes worth another
+             client-side spaced try. */
+          if (message && (BUSY_RE.test(message) || data.busy === true) && i < BUSY_RETRY_DELAYS.length) {
+            if (onBusyRetry) onBusyRetry(i + 1, BUSY_RETRY_DELAYS.length);
+            return new Promise(function (r) { setTimeout(r, BUSY_RETRY_DELAYS[i]); }).then(function () { return attempt(i + 1); });
+          }
+
+          if (message) {
+            /* Only busy is retryable — a clean "no record for this roll" is final. */
+            last = { status: 'not-found', message: message };
+            return last;
+          }
+          return retryableFail(i);
+        }, function () { return retryableFail(i); });
+    };
+
+    return attempt(0).then(function (out) {
+      return out || last || { status: 'error', message: "Couldn't reach BISE Peshawar right now. Please try again." };
+    });
+  }
+
+  /* ── Subject math (ported EXACTLY from GHS Results.tsx) ─────────────
+     BISEP does NOT send a per-subject maximum, so the maximum comes from
+     the board's fixed paper scheme, decided by exam level + subject:
+       HSSC (11th/12th): Islamiyat, Mutalia Quran & Pak Study = 50, every
+                         other subject = 100 (practical included)
+       SSC  (9th/10th) : Islamiyat, Mutalia Quran & Pak Study = 50, every
+                         other subject = 75 (practical included)
+     Bar = (theory + practical) / that maximum. Blank / non-numeric marks
+     → no bar. If the level can't be determined the bar is left out. */
+  function biseLevel(title, subjects) {
+    var i;
+    if (subjects) {
+      for (i = 0; i < subjects.length; i++) {
+        if (/^(E|U|M|PH|CH|CS|B|BIO|MQH|IE|PS)\s*-\s*I{1,2}$/i.test(String(subjects[i].subject || '').trim())) return 'HSSC';
+      }
+    }
+    var t = String(title || '');
+    if (/\bHSSC\b|higher\s+secondary/i.test(t)) return 'HSSC';
+    if (/\bSSC\b|secondary\s+school/i.test(t)) return 'SSC';
+    return null;
+  }
+  function biseSubjectMax(name, level) {
+    if (!level) return null;
+    var n = String(name || '').trim();
+    var isIslamiyat = /^IE(\b|\s*-|$)|islam/i.test(n);
+    var isMutaliaQuran = /\bMQH\b|^MQH|mutal|m\.?\s*quran|quran/i.test(n);
+    var isPakStudy = /pak(?:istan)?[\s.\-]*stud|^PS(\b|\s*-|$)/i.test(n);
+    if (level === 'HSSC') return (isIslamiyat || isMutaliaQuran || isPakStudy) ? 50 : 100;
+    return (isIslamiyat || isMutaliaQuran || isPakStudy) ? 50 : 75;
+  }
+  function bisePartNumber(raw) {
+    var t = String(raw == null ? '' : raw).trim();
+    if (!/^\d{1,3}$/.test(t)) return null;
+    return Number(t);
+  }
+  function biseSubjectObtained(s) {
+    var th = bisePartNumber(s.theory);
+    var pr = bisePartNumber(s.practical);
+    if (th === null && pr === null) return null;
+    return (th || 0) + (pr || 0);
+  }
+  /* Overall % across every subject with a known fixed maximum — used by
+     the Compare modal's headline number and winner badge. */
+  function biseOverallPercent(result, examTitle) {
+    var level = biseLevel(examTitle, result.subjects);
+    if (!level) return null;
+    var obtained = 0, max = 0, i, ob, mx;
+    for (i = 0; i < result.subjects.length; i++) {
+      ob = biseSubjectObtained(result.subjects[i]);
+      mx = biseSubjectMax(result.subjects[i].subject, level);
+      if (ob === null || mx === null) continue;
+      obtained += ob; max += mx;
+    }
+    return max > 0 ? Math.round((obtained / max) * 1000) / 10 : null;
+  }
+  function biseIsPass(result) {
+    var anyFail = result.subjects.some(function (s) { return s.theory_fail || s.practical_fail; });
+    return !anyFail && !/fail/i.test(result.remarks || '');
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     DOM REFS + STATE
+     ══════════════════════════════════════════════════════════════════ */
+  var form, submitBtn, btnLabel, resetBtn, output, statusBox, liveTitleEl, pillWrap;
+  var meta = null;            /* last ?mode=current payload */
+  var metaLoading = true;     /* first ?mode=current still in flight */
+  var metaTimer = null;       /* adaptive poll timer */
+  var cdTimer = null;         /* 1s countdown ticker */
+  var publishingShown = false;
+  var currentResult = null;   /* the marksheet currently displayed */
+  var currentExamKey = FALLBACK_TITLE;
+  var searching = false;
+
+  /* ══════════════════════════════════════════════════════════════════
+     ?mode=current — adaptive live poll (GHS useBisepCurrentExam port)
+     ══════════════════════════════════════════════════════════════════ */
+  function pollMeta() {
+    clearTimeout(metaTimer);
+    fetchWithRetryFn(proxyURL('?mode=current'), 2)
+      .then(function (r) { return r.json(); })
+      .then(function (data) { meta = (data && typeof data === 'object') ? data : null; })
+      .catch(function () { meta = null; })
+      .then(function () {
+        metaLoading = false;
+        renderStatusState();
+        scheduleNextMeta();
+      });
+  }
+
+  function scheduleNextMeta() {
+    var delay = 15000;
+    if (meta && meta.countdown_date && !meta.is_live) {
+      var left = Date.parse(meta.countdown_date) - Date.now();
+      if (left <= 60000) delay = 1000;          /* final minute → 1s (GHS adaptive poll) */
+      else if (left <= 5 * 60000) delay = 5000;
+      else delay = 15000;
+    }
+    metaTimer = setTimeout(pollMeta, delay);
+  }
+
+  /* ticker: seamless marquee rebuilt from the LIVE exam title */
+  function updateTicker() {
+    var track = $('#ticker-track');
+    if (!track) return;
+    var title = (meta && meta.exam_title) || FALLBACK_TITLE;
+    var items;
+    if (metaLoading) {
+      items = ['BISE Peshawar result status \u2014 loading live data\u2026'];
+    } else if (meta && meta.is_live) {
+      items = [
+        '\ud83c\udf89 ' + title + ' Result \u2014 DECLARED \u00b7 search your roll number now',
+        title + ' marksheets are available on cloud.bisep.edu.pk',
+        'Check, share, save & compare your BISE Peshawar result \u2014 free'
+      ];
+    } else if (meta && meta.countdown_date) {
+      var when = meta.countdown_date.replace('T', ' ').slice(0, 16).replace(/-/g, '-');
+      items = [
+        title + ' \u2014 result opening ' + when + ' (PKT)',
+        'Live countdown running \u2014 the roll-number search opens automatically',
+        'No refresh needed \u2014 this page flips to results the moment BISE Peshawar declares'
+      ];
+    } else if (meta && meta.countdown_text) {
+      items = [
+        title + ' \u2014 ' + meta.countdown_text,
+        'Live countdown running \u2014 the roll-number search opens automatically',
+        'No refresh needed \u2014 this page flips to results the moment BISE Peshawar declares'
+      ];
+    } else {
+      items = [
+        title + ' \u2014 awaiting board announcement',
+        'The result countdown will appear here automatically',
+        'Institutional verification available on cloud.bisep.edu.pk'
+      ];
+    }
+    /* build one full set, then duplicate it - translateX(-50%) loops seamlessly */
+    var set = document.createDocumentFragment();
+    items.forEach(function (t) {
+      var sp = document.createElement('span');
+      sp.textContent = t;
+      set.appendChild(sp);
+    });
+    var set2 = set.cloneNode(true);
+    Array.prototype.forEach.call(set2.children, function (sp) { sp.setAttribute('aria-hidden', 'true'); });
+    track.textContent = '';
+    track.appendChild(set);
+    track.appendChild(set2);
+  }
+
+  /* ── status state machine: skeleton → countdown/publishing → search ─ */
+  function renderStatusState() {
+    if (!statusBox || !form) return;
+    var title = (meta && meta.exam_title) || FALLBACK_TITLE;
+    currentExamKey = title;
+    if (liveTitleEl) liveTitleEl.textContent = 'Result \u2014 ' + title;
+    updateTicker();
+    stopCountdown();
+
+    if (metaLoading) {
+      statusBox.hidden = false;
+      statusBox.innerHTML = '';
+      statusBox.appendChild(buildSkeleton('Waiting for BISE Peshawar\u2026'));
+      form.hidden = true;
+      if (pillWrap) pillWrap.hidden = true;
+      return;
+    }
+
+    var isLive = !!(meta && meta.is_live);
+    var cdDate = (meta && meta.countdown_date) ? meta.countdown_date : null;
+    var cdText = (meta && meta.countdown_text) ? meta.countdown_text : null;
+
+    if (!isLive && cdDate) {
+      /* Pre-announcement: the search card is HIDDEN — searching is
+         pointless before BISEP has published anything (GHS behaviour). */
+      statusBox.hidden = false;
+      form.hidden = true;
+      if (pillWrap) pillWrap.hidden = true;
+      startCountdown(cdDate, cdText);
+      return;
+    }
+
+    /* Live (or board unreachable → graceful fallback to search). */
+    statusBox.hidden = true;
+    statusBox.innerHTML = '';
+    form.hidden = false;
+    if (pillWrap) pillWrap.hidden = !isLive;
+    publishingShown = false;
+  }
+
+  function buildSkeleton(label) {
+    var sk = el('div', 'skeleton-card glass');
+    sk.appendChild(el('p', 'sk__note', label || ''));
+    var t = el('div', 'sk sk--title');
+    sk.appendChild(t);
+    for (var i = 0; i < 4; i++) sk.appendChild(el('div', 'sk sk--row'));
+    sk.appendChild(el('div', 'sk sk--box'));
+    return sk;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     COUNTDOWN — realistic alarm-clock icon (GHS RealisticClockIcon) +
+     green TIME REMAINING label + big red breathing digits. Hands show
+     the REAL current time-of-day ticking toward the target (they must
+     read like a clock, not the remaining duration), digits show the
+     remaining time — exactly like GHS's BisepClockAndCountdown.
+     ══════════════════════════════════════════════════════════════════ */
+  function buildClockSVG(container) {
+    var ticks = '';
+    for (var i = 0; i < 12; i++) {
+      var a = (i * 30 * Math.PI) / 180;
+      var x1 = (32 + Math.sin(a) * 16.5).toFixed(2);
+      var y1 = (34 - Math.cos(a) * 16.5).toFixed(2);
+      var x2 = (32 + Math.sin(a) * 14).toFixed(2);
+      var y2 = (34 - Math.cos(a) * 14).toFixed(2);
+      ticks += '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 +
+        '" stroke="#B08628" stroke-width="' + (i % 3 === 0 ? 1.4 : 0.8) + '" stroke-linecap="round"/>';
+    }
+    container.innerHTML =
+      '<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">' +
+      '<defs>' +
+      '<linearGradient id="bzcdFace" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0%" stop-color="#FFFDF5"/><stop offset="100%" stop-color="#F3E9C7"/></linearGradient>' +
+      '<linearGradient id="bzcdRim" x1="0" y1="0" x2="1" y2="1">' +
+      '<stop offset="0%" stop-color="#F4C550"/><stop offset="100%" stop-color="#C6912A"/></linearGradient>' +
+      '</defs>' +
+      '<circle cx="16" cy="10" r="5.5" fill="url(#bzcdRim)"/>' +
+      '<circle cx="48" cy="10" r="5.5" fill="url(#bzcdRim)"/>' +
+      '<rect x="22" y="52" width="4.5" height="8" rx="2" fill="#8A6416"/>' +
+      '<rect x="37.5" y="52" width="4.5" height="8" rx="2" fill="#8A6416"/>' +
+      '<circle cx="32" cy="34" r="24" fill="url(#bzcdRim)"/>' +
+      '<circle cx="32" cy="34" r="19.5" fill="url(#bzcdFace)" stroke="#C6912A" stroke-width="1.5"/>' +
+      ticks +
+      '<line class="hand-h" x1="32" y1="34" x2="32" y2="25.5" stroke="#3F2E10" stroke-width="2.2" stroke-linecap="round"/>' +
+      '<line class="hand-m" x1="32" y1="34" x2="32" y2="22" stroke="#3F2E10" stroke-width="2.2" stroke-linecap="round"/>' +
+      '<line class="hand-s" x1="32" y1="34" x2="32" y2="20.5" stroke="#D64545" stroke-width="1.3" stroke-linecap="round"/>' +
+      '<circle cx="32" cy="34" r="2.2" fill="#3F2E10"/>' +
+      '</svg>';
+  }
+
+  function setHand(node, deg) {
+    if (node) node.setAttribute('transform', 'rotate(' + deg + ' 32 34)');
+  }
+
+  function startCountdown(iso, text) {
+    var target = Date.parse(iso);
+    if (Number.isNaN(target)) return;
+    var frag = $('#tpl-countdown').content.cloneNode(true);
+    var card = frag.querySelector('.bisep-countdown');
+    var digits = frag.querySelector('[data-slot="digits"]');
+    var textEl = frag.querySelector('[data-slot="text"]');
+    buildClockSVG(frag.querySelector('[data-slot="clock"]'));
+    if (text) textEl.textContent = text; else textEl.hidden = true;
+    statusBox.innerHTML = '';
+    statusBox.appendChild(frag);
+
+    var handH = card.querySelector('.hand-h');
+    var handM = card.querySelector('.hand-m');
+    var handS = card.querySelector('.hand-s');
+
+    var tick = function () {
+      var diff = target - Date.now();
+      var now = new Date();
+      setHand(handS, (now.getSeconds() % 60) * 6);
+      setHand(handM, (now.getMinutes() % 60) * 6 + (now.getSeconds() % 60) * 0.1);
+      setHand(handH, (now.getHours() % 12) * 30 + (now.getMinutes() % 60) * 0.5);
+      if (diff <= 0) {
+        clearInterval(cdTimer); cdTimer = null;
+        renderPublishing();
+        return;
+      }
+      var d = Math.floor(diff / 86400000);
+      var h = Math.floor((diff % 86400000) / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      var pad = function (n) { return String(n).padStart(2, '0'); };
+      digits.textContent = d > 0 ? (d + 'd ' + pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's')
+                                 : (pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's');
+    };
+    tick();
+    card.classList.add('bisep-countdown--running');
+    cdTimer = setInterval(tick, 1000);
+  }
+
+  function renderPublishing() {
+    if (!statusBox) return;
+    statusBox.innerHTML = '';
+    statusBox.appendChild($('#tpl-publishing').content.cloneNode(true));
+    /* Fire ONE immediate re-poll; the adaptive 1s scheduler keeps
+       polling until the board flips is_live (no page refresh needed). */
+    if (!publishingShown) { publishingShown = true; pollMeta(); }
+  }
+
+  function stopCountdown() {
+    if (cdTimer) { clearInterval(cdTimer); cdTimer = null; }
+  }
+
+
+  /* ══════════════════════════════════════════════════════════════════
+     ROLL SEARCH FLOW (GHS handleSearch port)
+     ══════════════════════════════════════════════════════════════════ */
+  function bindSearchFlow() {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (searching) return;
+      var roll = (rollInput.value || '').trim();
+      if (!roll) { showFormError('Please enter your roll number.'); return; }
+      if (!/^[0-9]{4,10}$/.test(roll)) { showFormError('Roll number must contain 4\u201310 digits only.'); return; }
+      clearFormError();
+      runSearch(roll);
+    });
+
+    rollInput.addEventListener('input', function () {
+      rollInput.value = rollInput.value.replace(/[^0-9]/g, '').slice(0, 10);
+      clearFormError();
+    });
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', function () { resetToForm(); });
+    }
+  }
+
+  function runSearch(roll) {
+    searching = true;
+    output.innerHTML = '';
+    output.appendChild(buildSkeleton('Checking BISE Peshawar\u2026'));
+    output.setAttribute('aria-busy', 'true');
+    output.removeAttribute('hidden');
+    submitBtn.classList.add('is-loading');
+    submitBtn.disabled = true;
+    if (btnLabel) btnLabel.textContent = 'Searching\u2026';
+
+    var examKey = currentExamKey || FALLBACK_TITLE;
+
+    fetchBiseResult(roll, {
+      examKey: examKey,
+      onBusyRetry: function (a, total) {
+        if (btnLabel) btnLabel.textContent = 'Board busy \u2014 retrying (' + a + '/' + total + ')\u2026';
+      }
+    }).then(function (outcome) {
+      if (outcome.status === 'found') {
+        currentResult = outcome.result;
+        renderBiseResult(outcome.result, examKey);
+        /* Confetti + chime fire directly over the real card — pass/fail
+           inferred exactly like GHS: any failed theory/practical part, or
+           "fail" in the remarks, means calm/teal not gold. */
+        fireCelebration(biseIsPass(outcome.result));
+      } else {
+        /* Clean "no record" AND transient errors both land on the calm
+           No Result Found card (GHS v5 behaviour), with a direct link to
+           the board as a safety hatch. */
+        renderNotFound(roll, examKey, outcome.message ||
+          'No Result Found. Please check your Roll No and try again, or try again in a moment.');
+      }
+    }).catch(function () {
+      renderNotFound(roll, examKey,
+        'No Result Found. Please check your Roll No and try again, or try again in a moment.');
+    }).then(function () {
+      searching = false;
+      submitBtn.classList.remove('is-loading');
+      submitBtn.disabled = false;
+      if (btnLabel) btnLabel.textContent = 'Search Result';
+      output.setAttribute('aria-busy', 'false');
+      output.focus({ preventScroll: true });
+      output.scrollIntoView({ behavior: REDUCED_MOTION ? 'auto' : 'smooth', block: 'start' });
+    });
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     "STUDENT RESULT DETAILS" CARD — GHS BISE card structure:
+     blue hero + gold hairline + roll pill + title chip, Candidate
+     Information rows, Subject Wise Marks (# · Subject · Bar · Theory ·
+     Practical), Share · Save · Compare + Print · Copy · Check another.
+     ══════════════════════════════════════════════════════════════════ */
+  function renderBiseResult(result, examTitle) {
+    var frag = $('#tpl-bise').content.cloneNode(true);
+    var card = frag.querySelector('.bisecard');
+
+    frag.querySelector('[data-slot="roll"]').textContent = result.roll_no || '\u2014';
+    frag.querySelector('[data-slot="examchip"]').textContent =
+      (examTitle || FALLBACK_TITLE) + ' \u00b7 BISE Peshawar';
+
+    var stamp = frag.querySelector('[data-slot="stamp"]');
+    var isPass = biseIsPass(result);
+    stamp.textContent = isPass ? 'Passed' : 'Failed';
+    stamp.classList.add(isPass ? 'bisecard__stamp--pass' : 'bisecard__stamp--fail');
+
+    /* Candidate Information — the board's own label/value pattern */
+    var infoRows = frag.querySelector('[data-slot="info-rows"]');
+    var rows = [
+      { k: 'Student Name', v: result.name || '\u2014' },
+      { k: 'Father Name', v: result.father_name || '\u2014' },
+      { k: 'Roll Number', v: result.roll_no || '\u2014' },
+      { k: 'Marks', v: result.marks || '\u2014', bold: true },
+      { k: 'Grade', v: result.grade || '\u2014' },
+      { k: 'Remarks', v: result.remarks || '\u2014' }
+    ];
+    if (result.collect_dmc_from) rows.push({ k: 'Collect DMC From', v: result.collect_dmc_from, accent: true });
+    rows.forEach(function (r) {
+      var row = el('div', 'bisecard__info-row');
+      row.appendChild(el('span', 'k', r.k));
+      var v = el('span', 'v' + (r.bold ? ' v--bold' : '') + (r.accent ? ' v--accent' : ''), r.v);
+      row.appendChild(v);
+      infoRows.appendChild(row);
+    });
+
+    /* Subject Wise Marks — # / Subject / Bar / Theory / Practical */
+    var level = biseLevel(examTitle, result.subjects);
+    var tbody = frag.querySelector('[data-slot="subject-rows"]');
+    var subjectsWrap = frag.querySelector('[data-slot="subjects-wrap"]');
+    if (result.subjects.length > 0) {
+      result.subjects.forEach(function (s, i) {
+        var ob = biseSubjectObtained(s);
+        var mx = biseSubjectMax(s.subject, level);
+        var pct = (ob === null || mx === null) ? null : Math.min(100, (ob / mx) * 100);
+        var fail = s.theory_fail === true || s.practical_fail === true;
+
+        var tr = el('tr');
+        var tdSr = el('td', 'cell-num', s.sr || String(i + 1));
+        var tdSub = el('td', null, s.subject || '\u2014');
+        var tdBar = el('td', 'cell-bar');
+        var track = el('span', 'bar-track');
+        if (pct !== null) {
+          var fill = el('span', 'bar-fill is-anim' + (fail ? ' is-fail' : ''));
+          fill.style.width = pct.toFixed(1) + '%';
+          fill.style.animationDelay = (0.05 * i) + 's';
+          track.appendChild(fill);
+        }
+        tdBar.appendChild(track);
+        var tdTh = el('td', 'cell-num' + (s.theory_fail ? ' is-fail' : ''), s.theory || '\u2014');
+        var tdPr = el('td', 'cell-num' + (s.practical_fail ? ' is-fail' : ''), s.practical || '\u2014');
+        tr.append(tdSr, tdSub, tdBar, tdTh, tdPr);
+        tbody.appendChild(tr);
+      });
+    } else {
+      var tableWrapEl = subjectsWrap.querySelector('.marks-wrap');
+      if (tableWrapEl) tableWrapEl.remove();
+      var empty = el('p', 'bisecard__note', 'Subject-wise marks not available for this result.');
+      empty.style.padding = '0';
+      subjectsWrap.appendChild(empty);
+    }
+
+    bindCardActions(card, result, examTitle);
+    output.innerHTML = '';
+    output.appendChild(frag);
+    document.body.classList.add('has-result');
+  }
+
+  function renderNotFound(roll, examTitle, message) {
+    var frag = $('#tpl-notfound').content.cloneNode(true);
+    frag.querySelector('[data-slot="roll"]').textContent = roll;
+    frag.querySelector('[data-slot="exam"]').textContent = examTitle || FALLBACK_TITLE;
+    frag.querySelector('[data-slot="message"]').textContent = message || '';
+    var direct = frag.querySelector('[data-slot="direct"]');
+    if (direct) {
+      direct.href = 'https://cloud.bisep.edu.pk/ShowResult.php?Search=RollNo&RollNo=' + encodeURIComponent(roll);
+    }
+    var btn = frag.querySelector('[data-action="reset"]');
+    if (btn) btn.addEventListener('click', resetToForm);
+    output.innerHTML = '';
+    output.appendChild(frag);
+    document.body.classList.remove('has-result');
+  }
+
+  function resetToForm() {
+    output.innerHTML = '';
+    document.body.classList.remove('has-result');
+    currentResult = null;
+    if (!rollInput.value) rollInput.focus(); else { rollInput.value = ''; rollInput.focus(); }
+    var formWrap = $('#check-result') || form;
+    formWrap.scrollIntoView({ behavior: REDUCED_MOTION ? 'auto' : 'smooth', block: 'center' });
+  }
+
+  function bindCardActions(card, result, examTitle) {
+    card.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-action]');
+      if (!btn) return;
+      var action = btn.getAttribute('data-action');
+      if (action === 'share') {
+        btn.classList.add('is-busy');
+        shareResultCard(result, examTitle)
+          .catch(function () {})
+          .then(function () { btn.classList.remove('is-busy'); });
+      } else if (action === 'save') {
+        btn.classList.add('is-busy');
+        saveResultCard(result, examTitle)
+          .catch(function () {})
+          .then(function () { btn.classList.remove('is-busy'); });
+      } else if (action === 'compare') {
+        openCompare();
+      } else if (action === 'print') {
+        window.print();
+      } else if (action === 'copy') {
+        copySummary(result, examTitle);
+      } else if (action === 'reset') {
+        resetToForm();
+      } else if (action === 'replay') {
+        fireCelebration(biseIsPass(result));
+      }
+    });
+  }
+
+  function copySummary(result, examTitle) {
+    var lines = [
+      SITE_NAME,
+      (examTitle || FALLBACK_TITLE) + ' \u2014 BISE Peshawar',
+      'Name: ' + (result.name || '\u2014'),
+      'Father: ' + (result.father_name || '\u2014'),
+      'Roll No: ' + (result.roll_no || '\u2014'),
+      'Marks: ' + (result.marks || '\u2014'),
+      'Grade: ' + (result.grade || '\u2014'),
+      'Remarks: ' + (result.remarks || '\u2014'),
+      'Check your result: ' + SITE_URL
+    ];
+    var text = lines.join('\n');
+    var done = function () { toast('Result summary copied to clipboard'); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { legacyCopy(text, done); });
+    } else {
+      legacyCopy(text, done);
+    }
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     SHARE / SAVE — professionally drawn 1080px canvas cards (GHS v6
+     approach: "hand-drawn fixed-HD cards, professionally composed every
+     time" — no DOM screenshot, no external libraries, CSP-clean).
+     Share → OS share sheet (WhatsApp etc.) with the site link caption;
+     Save → PNG download of the same card.
+     ══════════════════════════════════════════════════════════════════ */
+  var FONT = 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif';
+  var MONO = 'ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace';
+
+  function canvasToBlob(canvas) {
+    return new Promise(function (resolve, reject) {
+      if (canvas.toBlob) canvas.toBlob(function (b) { b ? resolve(b) : reject(new Error('blob failed')); }, 'image/png');
+      else reject(new Error('toBlob unsupported'));
+    });
+  }
+
+  function downloadCanvas(canvas, fileName) {
+    return canvasToBlob(canvas).then(function (blob) {
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = fileName;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+    });
+  }
+
+  function shareCanvas(canvas, fileName, title, shareText) {
+    return canvasToBlob(canvas).then(function (blob) {
+      var file = new File([blob], fileName, { type: 'image/png' });
+      if (navigator.canShare && navigator.canShare({ files: [file] }) && navigator.share) {
+        return navigator.share({ files: [file], title: title, text: shareText }).then(function () {
+          return 'shared';
+        }).catch(function (err) {
+          if (err && err.name === 'AbortError') return 'cancelled';
+          return downloadCanvas(canvas, fileName).then(function () { return 'saved'; });
+        });
+      }
+      return downloadCanvas(canvas, fileName).then(function () { return 'saved'; });
+    });
+  }
+
+  function toastShareOutcome(outcome) {
+    if (outcome === 'shared') toast('Result card shared');
+    else if (outcome === 'saved') toast('Result card saved to your device');
+    else if (outcome === 'copied') toast('Result card copied to clipboard');
+    else if (outcome === 'failed' || outcome == null) toast('Sharing is not available in this browser', 'error');
+    /* 'cancelled' — user closed the share sheet; stay silent */
+  }
+
+  function biseShareText(result, examTitle) {
+    return [
+      '\uD83C\uDF93 BISE Peshawar Result \u2014 ' + (examTitle || FALLBACK_TITLE),
+      '\uD83D\uDC64 ' + (result.name || 'Student') + (result.father_name ? '  (Father: ' + result.father_name + ')' : ''),
+      '\uD83C\uDFAB Roll No: ' + (result.roll_no || '\u2014'),
+      '\uD83D\uDCCA Marks: ' + (result.marks || '\u2014') + (result.grade ? '  \u00b7  Grade: ' + result.grade : ''),
+      (result.remarks ? '\uD83D\uDCDD Remarks: ' + result.remarks : ''),
+      '\uD83D\uDD17 Check your result: ' + SITE_URL
+    ].filter(Boolean).join('\n');
+  }
+
+  function resultFileName(result) {
+    return 'BISE-Result-' + String(result.roll_no || 'Result').replace(/[^a-zA-Z0-9]+/g, '-') + '-cloud-bisep.png';
+  }
+
+  function shareResultCard(result, examTitle) {
+    var canvas = drawBiseResultCanvas(result, examTitle);
+    return shareCanvas(canvas, resultFileName(result),
+      'BISE Peshawar Result \u2014 ' + SITE_NAME, biseShareText(result, examTitle))
+      .then(toastShareOutcome)
+      .catch(function () { toastShareOutcome('failed'); });
+  }
+
+  function saveResultCard(result, examTitle) {
+    var canvas = drawBiseResultCanvas(result, examTitle);
+    return downloadCanvas(canvas, resultFileName(result))
+      .then(function () { toastShareOutcome('saved'); })
+      .catch(function () { toastShareOutcome('failed'); });
+  }
+
+  /* ── canvas drawing primitives ── */
+  function rr(ctx, x, y, w, h, r) {
+    var rad = Math.min(r, w / 2, h / 2);
+    ctx.beginPath();
+    ctx.moveTo(x + rad, y);
+    ctx.arcTo(x + w, y, x + w, y + h, rad);
+    ctx.arcTo(x + w, y + h, x, y + h, rad);
+    ctx.arcTo(x, y + h, x, y, rad);
+    ctx.arcTo(x, y, x + w, y, rad);
+    ctx.closePath();
+  }
+  function fitText(ctx, text, maxWidth) {
+    var t = String(text || '');
+    if (ctx.measureText(t).width <= maxWidth) return t;
+    while (t.length > 1 && ctx.measureText(t + '\u2026').width > maxWidth) t = t.slice(0, -1);
+    return t + '\u2026';
+  }
+
+  /* The full marksheet card — 1080px wide, board-styled like the GHS
+     card (blue hero + gold hairline + roll pill + candidate info +
+     subject table with bars + footer). Height is computed from content. */
+  function drawBiseResultCanvas(result, examTitle) {
+    var W = 1080, PAD = 54, IW = W - PAD * 2;
+    var isPass = biseIsPass(result);
+    var level = biseLevel(examTitle, result.subjects);
+
+    var infoRows = [
+      ['Student Name', result.name || '\u2014', false],
+      ['Father Name', result.father_name || '\u2014', false],
+      ['Roll Number', result.roll_no || '\u2014', false],
+      ['Marks', result.marks || '\u2014', true],
+      ['Grade', result.grade || '\u2014', false],
+      ['Remarks', result.remarks || '\u2014', false]
+    ];
+    if (result.collect_dmc_from) infoRows.push(['Collect DMC From', result.collect_dmc_from, 'accent']);
+    var ROW_H = 66;
+
+    var hasSubjects = result.subjects.length > 0;
+    var SUB_HEAD = 58, SUB_ROW = 58;
+    var tableH = hasSubjects ? SUB_HEAD + result.subjects.length * SUB_ROW : 120;
+
+    var H = 0;
+    var HERO_H = 216;
+    var infoTop = HERO_H + 34;
+    var infoH = infoRows.length * ROW_H + 22;
+    var subCapTop = infoTop + infoH + 40;
+    var subTop = subCapTop + 44;
+    var footH = 92;
+    H = subTop + tableH + 40 + footH;
+
+    var c = document.createElement('canvas');
+    c.width = W; c.height = H;
+    var ctx = c.getContext('2d');
+
+    /* page background */
+    ctx.fillStyle = '#eef3fb';
+    ctx.fillRect(0, 0, W, H);
+
+    /* ── hero band ── */
+    var grad = ctx.createLinearGradient(0, 0, W, HERO_H);
+    grad.addColorStop(0, '#1d4ed8'); grad.addColorStop(0.45, '#2563eb'); grad.addColorStop(1, '#0ea5e9');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, W, HERO_H);
+    /* gold hairline */
+    ctx.fillStyle = '#e3b341';
+    ctx.fillRect(0, 0, W, 4);
+    /* soft orbs */
+    ctx.fillStyle = 'rgba(255,255,255,0.10)';
+    ctx.beginPath(); ctx.arc(W - 60, 30, 130, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = 'rgba(227,179,65,0.20)';
+    ctx.beginPath(); ctx.arc(40, HERO_H + 10, 140, 0, Math.PI * 2); ctx.fill();
+
+    ctx.fillStyle = '#ffffff';
+    ctx.font = '800 40px ' + FONT;
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText('Student Result Details', PAD, 84);
+
+    /* roll pill */
+    ctx.font = '800 30px ' + MONO;
+    var rollTxt = result.roll_no || '\u2014';
+    var rollW = Math.max(200, ctx.measureText(rollTxt).width + 76);
+    var pillX = W - PAD - rollW, pillY = 34, pillH = 92;
+    rr(ctx, pillX, pillY, rollW, pillH, 20);
+    ctx.fillStyle = 'rgba(255,255,255,0.14)'; ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.28)'; ctx.lineWidth = 2; ctx.stroke();
+    ctx.fillStyle = 'rgba(255,255,255,0.85)';
+    ctx.font = '700 18px ' + FONT;
+    ctx.fillText('ROLL NUMBER', pillX + 22, pillY + 32);
+    ctx.fillStyle = '#fde68a';
+    ctx.font = '800 32px ' + MONO;
+    ctx.fillText(rollTxt, pillX + 22, pillY + 70);
+
+    /* exam chip */
+    ctx.font = '800 23px ' + FONT;
+    var chipText = fitText(ctx, String(examTitle || FALLBACK_TITLE).toUpperCase() + '  \u00b7  BISE PESHAWAR', IW - 320);
+    var chipW = ctx.measureText(chipText).width + 48;
+    rr(ctx, PAD, 128, chipW, 46, 23);
+    ctx.fillStyle = 'rgba(255,255,255,0.16)'; ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.28)'; ctx.lineWidth = 1.5; ctx.stroke();
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(chipText, PAD + 24, 159);
+
+    /* pass/fail stamp */
+    ctx.font = '800 23px ' + FONT;
+    var stampTxt = isPass ? '\u2713 PASSED' : '\u2715 FAILED';
+    var stampW = ctx.measureText(stampTxt).width + 44;
+    var stampX = PAD + chipW + 16;
+    rr(ctx, stampX, 128, stampW, 46, 23);
+    ctx.fillStyle = isPass ? 'rgba(16,185,129,0.42)' : 'rgba(239,68,68,0.45)';
+    ctx.fill();
+    ctx.fillStyle = isPass ? '#d1fae5' : '#fee2e2';
+    ctx.fillText(stampTxt, stampX + 22, 159);
+
+    /* ── candidate information ── */
+    var cardX = PAD, cardW = IW;
+    rr(ctx, cardX, infoTop, cardW, infoH, 24);
+    ctx.fillStyle = '#ffffff'; ctx.fill();
+    ctx.strokeStyle = '#e2e8f0'; ctx.lineWidth = 2; ctx.stroke();
+
+    ctx.save();
+    rr(ctx, cardX, infoTop, cardW, infoH, 24); ctx.clip();
+    infoRows.forEach(function (r, i) {
+      var y = infoTop + 11 + i * ROW_H;
+      if (i % 2 === 1) { ctx.fillStyle = '#f1f5f9'; ctx.fillRect(cardX, y, cardW, ROW_H); }
+      if (i > 0) { ctx.fillStyle = '#e2e8f0'; ctx.fillRect(cardX, y, cardW, 1.5); }
+      ctx.fillStyle = '#64748b';
+      ctx.font = '700 24px ' + FONT;
+      ctx.fillText(r[0], cardX + 34, y + ROW_H / 2 + 9);
+      ctx.font = (r[2] === true ? '800 ' : '700 ') + (r[2] ? '30px ' : '28px ') + FONT;
+      ctx.fillStyle = r[2] === true ? '#ea580c' : (r[2] === 'accent' ? '#c2410c' : '#0f172a');
+      var valTxt = fitText(ctx, r[1], cardW - 420);
+      ctx.textAlign = 'right';
+      ctx.fillText(valTxt, cardX + cardW - 34, y + ROW_H / 2 + (r[2] ? 10 : 9));
+      ctx.textAlign = 'left';
+    });
+    ctx.restore();
+
+    /* ── subject wise marks ── */
+    ctx.fillStyle = '#c2410c';
+    ctx.font = '800 26px ' + FONT;
+    ctx.fillText('SUBJECT WISE MARKS', PAD, subCapTop + 20);
+
+    rr(ctx, cardX, subTop, cardW, tableH, 24);
+    ctx.fillStyle = '#ffffff'; ctx.fill();
+    ctx.strokeStyle = '#e2e8f0'; ctx.lineWidth = 2; ctx.stroke();
+    ctx.save();
+    rr(ctx, cardX, subTop, cardW, tableH, 24); ctx.clip();
+
+    var colX = { sr: cardX + 30, sub: cardX + 100, bar: cardX + 520, th: cardX + cardW - 330, pr: cardX + cardW - 130 };
+    if (hasSubjects) {
+      /* header */
+      ctx.fillStyle = '#f1f5f9';
+      ctx.fillRect(cardX, subTop, cardW, SUB_HEAD);
+      ctx.fillStyle = '#64748b';
+      ctx.font = '800 21px ' + FONT;
+      ctx.fillText('#', colX.sr, subTop + 36);
+      ctx.fillText('SUBJECT', colX.sub, subTop + 36);
+      ctx.fillText('PROGRESS', colX.bar, subTop + 36);
+      ctx.textAlign = 'center';
+      ctx.fillText('THEORY', colX.th, subTop + 36);
+      ctx.fillText('PRACTICAL', colX.pr, subTop + 36);
+      ctx.textAlign = 'left';
+
+      result.subjects.forEach(function (s, i) {
+        var y = subTop + SUB_HEAD + i * SUB_ROW;
+        if (i % 2 === 1) { ctx.fillStyle = '#f8fafc'; ctx.fillRect(cardX, y, cardW, SUB_ROW); }
+        if (i > 0) { ctx.fillStyle = '#e2e8f0'; ctx.fillRect(cardX, y, cardW, 1.5); }
+        var cy = y + SUB_ROW / 2 + 9;
+        var fail = s.theory_fail === true || s.practical_fail === true;
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = '700 24px ' + FONT;
+        ctx.fillText(String(s.sr || i + 1), colX.sr, cy);
+        ctx.fillStyle = '#0f172a';
+        ctx.font = '700 26px ' + FONT;
+        ctx.fillText(fitText(ctx, s.subject || '\u2014', 400), colX.sub, cy);
+        /* bar */
+        var ob = biseSubjectObtained(s);
+        var mx = biseSubjectMax(s.subject, level);
+        var pct = (ob === null || mx === null) ? null : Math.min(100, (ob / mx) * 100);
+        var barY = y + SUB_ROW / 2 - 5;
+        rr(ctx, colX.bar, barY, 300, 10, 5);
+        ctx.fillStyle = '#e2e8f0'; ctx.fill();
+        if (pct !== null) {
+          rr(ctx, colX.bar, barY, Math.max(12, 300 * pct / 100), 10, 5);
+          ctx.fillStyle = fail ? '#ef4444' : '#2563eb';
+          ctx.fill();
+        }
+        ctx.textAlign = 'center';
+        ctx.font = '700 26px ' + FONT;
+        ctx.fillStyle = s.theory_fail ? '#dc2626' : '#0f172a';
+        ctx.fillText(String(s.theory || '\u2014'), colX.th, cy);
+        ctx.fillStyle = s.practical_fail ? '#dc2626' : '#0f172a';
+        ctx.fillText(String(s.practical || '\u2014'), colX.pr, cy);
+        ctx.textAlign = 'left';
+      });
+    } else {
+      ctx.fillStyle = '#94a3b8';
+      ctx.font = '700 26px ' + FONT;
+      ctx.textAlign = 'center';
+      ctx.fillText('Subject-wise marks not available for this result.', cardX + cardW / 2, subTop + tableH / 2 + 9);
+      ctx.textAlign = 'left';
+    }
+    ctx.restore();
+
+    /* ── footer strip ── */
+    var footY = H - footH;
+    var fgrad = ctx.createLinearGradient(0, footY, W, H);
+    fgrad.addColorStop(0, '#0b2e86'); fgrad.addColorStop(1, '#0c4a9e');
+    ctx.fillStyle = fgrad;
+    ctx.fillRect(0, footY, W, footH);
+    ctx.fillStyle = 'rgba(255,255,255,0.92)';
+    ctx.font = '700 25px ' + FONT;
+    ctx.fillText(SITE_NAME, PAD, footY + 40);
+    ctx.fillStyle = '#fde68a';
+    ctx.font = '700 24px ' + MONO;
+    ctx.textAlign = 'right';
+    ctx.fillText('cloud.bisep.edu.pk', W - PAD, footY + 40);
+    ctx.textAlign = 'left';
+    ctx.fillStyle = 'rgba(255,255,255,0.62)';
+    ctx.font = '600 19px ' + FONT;
+    ctx.fillText('Provisional online result \u00b7 errors and omissions excepted \u00b7 original certificate is authoritative', PAD, footY + 70);
+
+    return c;
+  }
+
+
+  /* ══════════════════════════════════════════════════════════════════
+     COMPARE RESULTS — roll number vs roll number (GHS ComparisonModal).
+     Side A pre-fills from the displayed result (zero extra board
+     requests); lookups are SEQUENTIAL (every lookup counts against the
+     same proxy IP; spaced retries + device cache make it reliable).
+     ══════════════════════════════════════════════════════════════════ */
+  var compareCtx = null; /* live modal state */
+
+  function openCompare() {
+    closeCompare();
+    var frag = $('#tpl-compare').content.cloneNode(true);
+    document.body.appendChild(frag);
+    var root = $('.bcmp');
+    compareCtx = {
+      root: root,
+      a: { roll: currentResult ? currentResult.roll_no : '', prefilled: !!currentResult, result: currentResult, state: currentResult ? 'found' : 'idle' },
+      b: { roll: '', result: null, state: 'idle' },
+      busy: false
+    };
+
+    var inputA = root.querySelector('[data-slot="roll-a"]');
+    var inputB = root.querySelector('[data-slot="roll-b"]');
+    inputA.value = compareCtx.a.roll || '';
+    inputB.value = '';
+
+    inputA.addEventListener('input', function () {
+      inputA.value = inputA.value.replace(/\D/g, '').slice(0, 10);
+      /* editing the pre-filled roll means side A must be re-fetched */
+      if (compareCtx.a.prefilled) { compareCtx.a.prefilled = false; compareCtx.a.state = 'idle'; }
+    });
+    inputB.addEventListener('input', function () {
+      inputB.value = inputB.value.replace(/\D/g, '').slice(0, 10);
+    });
+
+    root.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-action]');
+      if (!btn) return;
+      var action = btn.getAttribute('data-action');
+      if (action === 'bcmp-close') closeCompare();
+      else if (action === 'bcmp-run') runComparison();
+      else if (action === 'bcmp-share') shareComparison();
+    });
+    document.addEventListener('keydown', bcmpEsc);
+  }
+
+  function bcmpEsc(e) {
+    if (e.key === 'Escape') closeCompare();
+  }
+
+  function closeCompare() {
+    var root = $('.bcmp');
+    if (root) root.remove();
+    document.removeEventListener('keydown', bcmpEsc);
+    compareCtx = null;
+  }
+
+  function runComparison() {
+    if (!compareCtx || compareCtx.busy) return;
+    var root = compareCtx.root;
+    var rollA = root.querySelector('[data-slot="roll-a"]').value.trim();
+    var rollB = root.querySelector('[data-slot="roll-b"]').value.trim();
+    if (!/^[0-9]{4,10}$/.test(rollA) || !/^[0-9]{4,10}$/.test(rollB)) {
+      toast('Enter both roll numbers (4\u201310 digits)', 'error');
+      return;
+    }
+    compareCtx.a.roll = rollA;
+    compareCtx.b.roll = rollB;
+    compareCtx.busy = true;
+
+    var runBtn = root.querySelector('[data-action="bcmp-run"]');
+    var errA = root.querySelector('[data-slot="err-a"]');
+    var errB = root.querySelector('[data-slot="err-b"]');
+    errA.hidden = true; errB.hidden = true;
+    runBtn.classList.add('is-busy');
+    var runLbl = runBtn.querySelector('span');
+    if (runLbl) runLbl.textContent = 'Fetching results\u2026';
+
+    var results = root.querySelector('[data-slot="results"]');
+    results.hidden = true;
+
+    var aResolved = compareCtx.a.prefilled && compareCtx.a.state === 'found' &&
+      rollA === (currentResult ? currentResult.roll_no : '').trim();
+
+    var doB = function (outcomeA) {
+      return fetchBiseResult(rollB, { examKey: currentExamKey || FALLBACK_TITLE }).then(function (outcomeB) {
+        compareCtx.b.state = outcomeB.status;
+        compareCtx.b.result = outcomeB.status === 'found' ? outcomeB.result : null;
+        if (outcomeB.status !== 'found') {
+          errB.textContent = 'Roll ' + rollB + ': ' + outcomeB.message;
+          errB.hidden = false;
+        }
+        renderComparison();
+      });
+    };
+
+    var p;
+    if (aResolved) {
+      p = Promise.resolve(null);
+    } else {
+      compareCtx.a.state = 'loading'; compareCtx.a.result = null;
+      p = fetchBiseResult(rollA, { examKey: currentExamKey || FALLBACK_TITLE }).then(function (outcomeA) {
+        compareCtx.a.state = outcomeA.status;
+        compareCtx.a.result = outcomeA.status === 'found' ? outcomeA.result : null;
+        if (outcomeA.status !== 'found') {
+          errA.textContent = 'Roll ' + rollA + ': ' + outcomeA.message;
+          errA.hidden = false;
+        }
+      });
+    }
+    p.then(doB).then(function () {
+      compareCtx.busy = false;
+      runBtn.classList.remove('is-busy');
+      if (runLbl) runLbl.textContent = 'Compare';
+    }).catch(function () {
+      compareCtx.busy = false;
+      runBtn.classList.remove('is-busy');
+      if (runLbl) runLbl.textContent = 'Compare';
+      toast("Couldn't reach BISE Peshawar right now.", 'error');
+    });
+  }
+
+  function renderComparison() {
+    if (!compareCtx) return;
+    var root = compareCtx.root;
+    var bothFound = compareCtx.a.state === 'found' && compareCtx.b.state === 'found' &&
+      compareCtx.a.result && compareCtx.b.result;
+    var results = root.querySelector('[data-slot="results"]');
+    var shareBtn = root.querySelector('[data-action="bcmp-share"]');
+    if (!bothFound) { results.hidden = true; if (shareBtn) shareBtn.hidden = true; return; }
+    if (shareBtn) shareBtn.hidden = false;
+    results.hidden = false;
+
+    var a = compareCtx.a.result, b = compareCtx.b.result;
+    var examTitle = currentExamKey || FALLBACK_TITLE;
+    root.querySelector('[data-slot="brand"]').textContent =
+      examTitle + ' \u00b7 BISE Peshawar \u00b7 ' + SITE_NAME;
+
+    var pctA = biseOverallPercent(a, examTitle);
+    var pctB = biseOverallPercent(b, examTitle);
+    var leader = (pctA != null && pctB != null) ? (pctA === pctB ? 'tie' : (pctA > pctB ? 'a' : 'b')) : null;
+    var diffPct = (pctA != null && pctB != null) ? Math.abs(pctA - pctB) : null;
+
+    /* headline cards */
+    var headline = root.querySelector('[data-slot="headline"]');
+    headline.innerHTML = '';
+    [[a, compareCtx.a.roll, pctA, leader === 'a'], [b, compareCtx.b.roll, pctB, leader === 'b']].forEach(function (slot) {
+      var r = slot[0], roll = slot[1], pct = slot[2], isLeader = slot[3];
+      var cardEl = el('div', 'bcmp-card' + (isLeader ? ' is-leader' : ''));
+      if (isLeader) {
+        var badge = el('span', 'bcmp-card__lead-badge');
+        badge.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-trophy"/></svg>';
+        badge.appendChild(document.createTextNode('Leading'));
+        cardEl.appendChild(badge);
+      }
+      cardEl.appendChild(el('p', 'bcmp-card__name', r.name || ('Roll ' + roll)));
+      cardEl.appendChild(el('p', 'bcmp-card__roll', 'Roll ' + roll));
+      cardEl.appendChild(el('p', 'bcmp-card__pct', pct != null ? pct + '%' : (r.marks || '\u2014')));
+      cardEl.appendChild(el('p', 'bcmp-card__grade', r.grade ? 'Grade ' + r.grade : ''));
+      headline.appendChild(cardEl);
+    });
+
+    /* margin + tally lines */
+    var leadEl = root.querySelector('[data-slot="lead"]');
+    var tallyEl = root.querySelector('[data-slot="tally"]');
+    var tieEl = root.querySelector('[data-slot="tie"]');
+    var nameA = a.name || ('Roll ' + compareCtx.a.roll);
+    var nameB = b.name || ('Roll ' + compareCtx.b.roll);
+    leadEl.innerHTML = '';
+    tallyEl.innerHTML = '';
+    tieEl.hidden = true;
+
+    /* union of subject names (A order first, then B-only) */
+    var names = [], seen = {};
+    [].concat(a.subjects, b.subjects).forEach(function (s) {
+      var key = String(s.subject || '').trim().toLowerCase();
+      if (!key || seen[key]) return;
+      seen[key] = true;
+      names.push(s.subject);
+    });
+    var level = biseLevel(examTitle, [].concat(a.subjects, b.subjects));
+    var rows = names.map(function (name) {
+      var sa = null, sb = null;
+      a.subjects.forEach(function (s) { if (String(s.subject).trim().toLowerCase() === name.trim().toLowerCase()) sa = s; });
+      b.subjects.forEach(function (s) { if (String(s.subject).trim().toLowerCase() === name.trim().toLowerCase()) sb = s; });
+      return {
+        name: name,
+        obA: sa ? biseSubjectObtained(sa) : null,
+        obB: sb ? biseSubjectObtained(sb) : null,
+        max: biseSubjectMax(name, level)
+      };
+    });
+
+    var tally = { a: 0, b: 0, tie: 0 };
+    rows.forEach(function (r) {
+      if (r.obA != null && r.obB != null) {
+        if (r.obA > r.obB) tally.a++;
+        else if (r.obB > r.obA) tally.b++;
+        else tally.tie++;
+      }
+    });
+
+    if (leader === 'tie') {
+      tieEl.hidden = false;
+    } else if (leader && diffPct != null) {
+      var leadName = leader === 'a' ? nameA : nameB;
+      leadEl.appendChild(document.createTextNode(leadName + ' leads by '));
+      var strong = el('strong', null, diffPct + '%');
+      leadEl.appendChild(strong);
+      leadEl.appendChild(document.createTextNode(' overall'));
+    }
+    if (tally.a > 0 || tally.b > 0) {
+      var spanA = el('span');
+      var dotA = el('span', 'dot'); dotA.style.background = '#2563eb';
+      spanA.appendChild(dotA);
+      spanA.appendChild(document.createTextNode('Roll ' + compareCtx.a.roll + ' led ' + tally.a + ' subject' + (tally.a === 1 ? '' : 's')));
+      var spanB = el('span');
+      var dotB = el('span', 'dot'); dotB.style.background = '#38bdf8';
+      spanB.appendChild(dotB);
+      spanB.appendChild(document.createTextNode('Roll ' + compareCtx.b.roll + ' led ' + tally.b + ' subject' + (tally.b === 1 ? '' : 's')));
+      tallyEl.append(spanA, spanB);
+      if (tally.tie > 0) tallyEl.appendChild(el('span', null, '\u00b7 ' + tally.tie + ' tied'));
+    }
+
+    /* per-subject bar chart (pure DOM, no libraries — GHS's recharts
+       chart rendered as compact horizontal bars) */
+    var chart = root.querySelector('[data-slot="chart"]');
+    chart.innerHTML = '';
+    var chartRows = rows.filter(function (r) { return r.obA != null || r.obB != null; });
+    if (chartRows.length > 0) {
+      var wrap = el('div', 'bcmp__chartwrap');
+      wrap.appendChild(el('p', 'cap', 'Subject-wise Marks'));
+      var maxVal = 1;
+      rows.forEach(function (r) {
+        if (r.max) { maxVal = r.max; }
+      });
+      chartRows.forEach(function (r, i) {
+        var row = el('div', 'bcmp-chart-row');
+        row.appendChild(el('span', 'lbl', r.name));
+        var bars = el('span', 'bars');
+        var vals = el('span', 'vals');
+        [['a', r.obA, '#2563eb'], ['b', r.obB, '#38bdf8']].forEach(function (pair) {
+          var bar = el('span', 'bar bar--' + pair[0]);
+          var v = pair[1];
+          bar.style.width = (v != null && maxVal ? Math.max(2, Math.min(100, (v / maxVal) * 100)) : 0) + '%';
+          bar.style.animationDelay = (0.04 * i) + 's';
+          bars.appendChild(bar);
+          vals.appendChild(el('span', null, v != null ? String(v) : '\u2014'));
+        });
+        row.appendChild(bars);
+        row.appendChild(vals);
+        wrap.appendChild(row);
+      });
+      chart.appendChild(wrap);
+    }
+
+    /* per-subject comparison table */
+    var tableWrap = root.querySelector('[data-slot="table"]');
+    tableWrap.innerHTML = '';
+    if (rows.length > 0) {
+      var table = el('table');
+      var thead = el('thead');
+      var htr = el('tr');
+      var th1 = el('th', null, 'Subject');
+      var th2 = el('th', null, 'Roll ' + compareCtx.a.roll);
+      var th3 = el('th', null, 'Roll ' + compareCtx.b.roll);
+      htr.append(th1, th2, th3);
+      thead.appendChild(htr);
+      var tbody = el('tbody');
+      rows.forEach(function (r, i) {
+        var aHigher = r.obA != null && r.obB != null && r.obA > r.obB;
+        var bHigher = r.obA != null && r.obB != null && r.obB > r.obA;
+        var tr = el('tr');
+        var tdN = el('td', null, r.name);
+        if (r.max != null && (r.obA != null || r.obB != null)) {
+          var barA = el('span', 'mini');
+          var fillA = el('i');
+          fillA.style.width = (r.obA != null && r.max ? Math.min(100, (r.obA / r.max) * 100) : 0) + '%';
+          fillA.style.background = aHigher ? '#10b981' : '#60a5fa';
+          barA.appendChild(fillA);
+          var barB = el('span', 'mini');
+          var fillB = el('i');
+          fillB.style.width = (r.obB != null && r.max ? Math.min(100, (r.obB / r.max) * 100) : 0) + '%';
+          fillB.style.background = bHigher ? '#10b981' : '#38bdf8';
+          barB.appendChild(fillB);
+          tdN.appendChild(barA);
+        }
+        var tdA = el('td', aHigher ? 'win' : null, r.obA != null ? (r.max != null ? r.obA + '/' + r.max : String(r.obA)) : '\u2014');
+        var tdB = el('td', bHigher ? 'win' : null, r.obB != null ? (r.max != null ? r.obB + '/' + r.max : String(r.obB)) : '\u2014');
+        tr.append(tdN, tdA, tdB);
+        tbody.appendChild(tr);
+      });
+      table.append(thead, tbody);
+      tableWrap.appendChild(table);
+    }
+  }
+
+  /* Shareable comparison card — dedicated hand-drawn 1080px canvas
+     (GHS v6: fixed-HD canvas instead of a blurry modal screenshot). */
+  function drawComparisonCanvas() {
+    var a = compareCtx.a.result, b = compareCtx.b.result;
+    var examTitle = currentExamKey || FALLBACK_TITLE;
+    var W = 1080, PAD = 54, IW = W - PAD * 2;
+
+    var names = [], seen = {};
+    [].concat(a.subjects, b.subjects).forEach(function (s) {
+      var key = String(s.subject || '').trim().toLowerCase();
+      if (!key || seen[key]) return;
+      seen[key] = true;
+      names.push(s.subject);
+    });
+    var level = biseLevel(examTitle, [].concat(a.subjects, b.subjects));
+    var rows = names.map(function (name) {
+      var sa = null, sb = null;
+      a.subjects.forEach(function (s) { if (String(s.subject).trim().toLowerCase() === name.trim().toLowerCase()) sa = s; });
+      b.subjects.forEach(function (s) { if (String(s.subject).trim().toLowerCase() === name.trim().toLowerCase()) sb = s; });
+      return {
+        name: name,
+        obA: sa ? biseSubjectObtained(sa) : null,
+        obB: sb ? biseSubjectObtained(sb) : null,
+        max: biseSubjectMax(name, level)
+      };
+    });
+    var tally = { a: 0, b: 0, tie: 0 };
+    rows.forEach(function (r) {
+      if (r.obA != null && r.obB != null) {
+        if (r.obA > r.obB) tally.a++;
+        else if (r.obB > r.obA) tally.b++;
+        else tally.tie++;
+      }
+    });
+
+    var pctA = biseOverallPercent(a, examTitle);
+    var pctB = biseOverallPercent(b, examTitle);
+    var leader = (pctA != null && pctB != null) ? (pctA === pctB ? 'tie' : (pctA > pctB ? 'a' : 'b')) : null;
+    var diffPct = (pctA != null && pctB != null) ? Math.abs(pctA - pctB) : null;
+    var nameA = a.name || ('Roll ' + compareCtx.a.roll);
+    var nameB = b.name || ('Roll ' + compareCtx.b.roll);
+
+    var HEAD_H = 150, CARD_H = 250, ROW_H = 60;
+    var tableTop = HEAD_H + 34 + CARD_H + 96;
+    var tableH = rows.length ? 64 + rows.length * ROW_H : 120;
+    var footH = 88;
+    var H = tableTop + tableH + 34 + footH;
+
+    var c = document.createElement('canvas');
+    c.width = W; c.height = H;
+    var ctx = c.getContext('2d');
+
+    ctx.fillStyle = '#eef3fb';
+    ctx.fillRect(0, 0, W, H);
+    var grad = ctx.createLinearGradient(0, 0, W, HEAD_H);
+    grad.addColorStop(0, '#1d4ed8'); grad.addColorStop(1, '#0ea5e9');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, W, HEAD_H);
+    ctx.fillStyle = '#e3b341';
+    ctx.fillRect(0, 0, W, 4);
+    ctx.fillStyle = '#ffffff';
+    ctx.font = '800 40px ' + FONT;
+    ctx.fillText('Result Comparison', PAD, 70);
+    ctx.font = '700 24px ' + FONT;
+    ctx.fillStyle = 'rgba(255,255,255,0.88)';
+    ctx.fillText(fitText(ctx, examTitle + '  \u00b7  BISE Peshawar', IW), PAD, 108);
+
+    /* headline cards */
+    var cardW = (IW - 24) / 2;
+    [[a, compareCtx.a.roll, pctA, leader === 'a', nameA, '#2563eb', 0],
+     [b, compareCtx.b.roll, pctB, leader === 'b', nameB, '#0ea5e9', cardW + 24]].forEach(function (slot) {
+      var r = slot[0], roll = slot[1], pct = slot[2], isLeader = slot[3], nm = slot[4], col = slot[5], off = slot[6];
+      var x = PAD + off, y = HEAD_H + 34;
+      rr(ctx, x, y, cardW, CARD_H, 26);
+      ctx.fillStyle = '#ffffff'; ctx.fill();
+      ctx.strokeStyle = isLeader ? '#10b981' : '#e2e8f0';
+      ctx.lineWidth = isLeader ? 4 : 2;
+      ctx.stroke();
+      if (isLeader) {
+        ctx.fillStyle = '#10b981';
+        ctx.font = '800 22px ' + FONT;
+        ctx.textAlign = 'center';
+        ctx.fillText('\u2605 LEADING', x + cardW / 2, y + 40);
+        ctx.textAlign = 'left';
+      }
+      ctx.fillStyle = '#0f172a';
+      ctx.font = '800 30px ' + FONT;
+      ctx.textAlign = 'center';
+      ctx.fillText(fitText(ctx, nm, cardW - 48), x + cardW / 2, y + 84);
+      ctx.fillStyle = '#64748b';
+      ctx.font = '700 22px ' + MONO;
+      ctx.fillText('Roll ' + roll, x + cardW / 2, y + 116);
+      ctx.fillStyle = col;
+      ctx.font = '800 62px ' + FONT;
+      ctx.fillText(pct != null ? pct + '%' : (r.marks || '\u2014'), x + cardW / 2, y + 182);
+      if (r.grade) {
+        ctx.fillStyle = '#64748b';
+        ctx.font = '700 24px ' + FONT;
+        ctx.fillText('Grade ' + r.grade, x + cardW / 2, y + 218);
+      }
+      ctx.textAlign = 'left';
+    });
+
+    /* lead line + tally */
+    var lineY = HEAD_H + 34 + CARD_H + 48;
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#475569';
+    ctx.font = '700 26px ' + FONT;
+    if (leader === 'tie') {
+      ctx.fillText('Both candidates are tied overall.', W / 2, lineY);
+    } else if (leader && diffPct != null) {
+      ctx.fillText((leader === 'a' ? nameA : nameB) + ' leads by ' + diffPct + '% overall', W / 2, lineY);
+    } else {
+      ctx.fillText('Overall percentage unavailable for this exam level.', W / 2, lineY);
+    }
+    if (tally.a > 0 || tally.b > 0) {
+      ctx.font = '700 22px ' + FONT;
+      ctx.fillStyle = '#64748b';
+      ctx.fillText('Roll ' + compareCtx.a.roll + ' led ' + tally.a + ' subject' + (tally.a === 1 ? '' : 's') +
+        '   \u00b7   Roll ' + compareCtx.b.roll + ' led ' + tally.b + ' subject' + (tally.b === 1 ? '' : 's') +
+        (tally.tie > 0 ? '   \u00b7   ' + tally.tie + ' tied' : ''), W / 2, lineY + 34);
+    }
+    ctx.textAlign = 'left';
+
+    /* per-subject table */
+    rr(ctx, PAD, tableTop, IW, tableH, 24);
+    ctx.fillStyle = '#ffffff'; ctx.fill();
+    ctx.strokeStyle = '#e2e8f0'; ctx.lineWidth = 2; ctx.stroke();
+    ctx.save();
+    rr(ctx, PAD, tableTop, IW, tableH, 24); ctx.clip();
+
+    var colA = PAD + IW - 380, colB = PAD + IW - 150;
+    if (rows.length) {
+      ctx.fillStyle = '#f1f5f9';
+      ctx.fillRect(PAD, tableTop, IW, 64);
+      ctx.fillStyle = '#64748b';
+      ctx.font = '800 21px ' + FONT;
+      ctx.fillText('SUBJECT', PAD + 30, tableTop + 40);
+      ctx.textAlign = 'center';
+      ctx.fillText('ROLL ' + compareCtx.a.roll, colA + 100, tableTop + 40);
+      ctx.fillText('ROLL ' + compareCtx.b.roll, colB + 100, tableTop + 40);
+      ctx.textAlign = 'left';
+      rows.forEach(function (r, i) {
+        var y = tableTop + 64 + i * ROW_H;
+        if (i % 2 === 1) { ctx.fillStyle = '#f8fafc'; ctx.fillRect(PAD, y, IW, ROW_H); }
+        if (i > 0) { ctx.fillStyle = '#e2e8f0'; ctx.fillRect(PAD, y, IW, 1.5); }
+        var cy = y + ROW_H / 2 + 9;
+        var aHigher = r.obA != null && r.obB != null && r.obA > r.obB;
+        var bHigher = r.obA != null && r.obB != null && r.obB > r.obA;
+        ctx.fillStyle = '#0f172a';
+        ctx.font = '700 26px ' + FONT;
+        ctx.fillText(fitText(ctx, r.name, IW - 560), PAD + 30, cy);
+        ctx.textAlign = 'center';
+        ctx.font = '700 26px ' + FONT;
+        ctx.fillStyle = aHigher ? '#059669' : '#0f172a';
+        ctx.fillText(r.obA != null ? (r.max != null ? r.obA + '/' + r.max : String(r.obA)) : '\u2014', colA + 100, cy);
+        ctx.fillStyle = bHigher ? '#059669' : '#0f172a';
+        ctx.fillText(r.obB != null ? (r.max != null ? r.obB + '/' + r.max : String(r.obB)) : '\u2014', colB + 100, cy);
+        ctx.textAlign = 'left';
+      });
+    } else {
+      ctx.fillStyle = '#94a3b8';
+      ctx.font = '700 26px ' + FONT;
+      ctx.textAlign = 'center';
+      ctx.fillText('No subject-wise data available.', W / 2, tableTop + tableH / 2 + 9);
+      ctx.textAlign = 'left';
+    }
+    ctx.restore();
+
+    /* footer */
+    var footY = H - footH;
+    var fgrad = ctx.createLinearGradient(0, footY, W, H);
+    fgrad.addColorStop(0, '#0b2e86'); fgrad.addColorStop(1, '#0c4a9e');
+    ctx.fillStyle = fgrad;
+    ctx.fillRect(0, footY, W, footH);
+    ctx.fillStyle = 'rgba(255,255,255,0.92)';
+    ctx.font = '700 25px ' + FONT;
+    ctx.fillText(SITE_NAME, PAD, footY + 40);
+    ctx.fillStyle = '#fde68a';
+    ctx.font = '700 24px ' + MONO;
+    ctx.textAlign = 'right';
+    ctx.fillText('cloud.bisep.edu.pk', W - PAD, footY + 40);
+    ctx.textAlign = 'left';
+    ctx.fillStyle = 'rgba(255,255,255,0.62)';
+    ctx.font = '600 19px ' + FONT;
+    ctx.fillText('Compare any two roll numbers on the website \u2014 free, instant, secure', PAD, footY + 70);
+
+    return c;
+  }
+
+  function shareComparison() {
+    if (!compareCtx || !compareCtx.a.result || !compareCtx.b.result) return;
+    var btn = compareCtx.root.querySelector('[data-action="bcmp-share"]');
+    if (btn) btn.classList.add('is-busy');
+    var canvas = drawComparisonCanvas();
+    var a = compareCtx.a.result, b = compareCtx.b.result;
+    var text = [
+      '\u2694\uFE0F BISE Peshawar Result Comparison \u2014 ' + (currentExamKey || FALLBACK_TITLE),
+      '\uD83E\uDD47 ' + (a.name || 'Roll ' + compareCtx.a.roll) + ' (Roll ' + compareCtx.a.roll + ')' +
+        (biseOverallPercent(a, currentExamKey || FALLBACK_TITLE) != null ? ' \u2014 ' + biseOverallPercent(a, currentExamKey || FALLBACK_TITLE) + '%' : ''),
+      '\uD83E\uDD48 ' + (b.name || 'Roll ' + compareCtx.b.roll) + ' (Roll ' + compareCtx.b.roll + ')' +
+        (biseOverallPercent(b, currentExamKey || FALLBACK_TITLE) != null ? ' \u2014 ' + biseOverallPercent(b, currentExamKey || FALLBACK_TITLE) + '%' : ''),
+      '\uD83D\uDD17 Compare yours: ' + SITE_URL
+    ].join('\n');
+    shareCanvas(canvas, 'BISE-Comparison-cloud-bisep.png',
+      'BISE Peshawar Result Comparison', text)
+      .then(toastShareOutcome)
+      .catch(function () { toastShareOutcome('failed'); })
+      .then(function () { if (btn) btn.classList.remove('is-busy'); });
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     CELEBRATION — gold confetti + chime on pass, calm teal drift on
+     fail (GHS CelebrationCanvas gold/calm + useRevealAudio thump/tada).
+     Reduced-motion visitors get no confetti and no sound, like GHS.
+     ══════════════════════════════════════════════════════════════════ */
+  var audioCtx = null;
+  function primeAudio() {
+    if (REDUCED_MOTION) return;
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      audioCtx = audioCtx || new AC();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+    } catch (e) { /* audio is best-effort */ }
+  }
+  function playTone(freq, start, dur, type, vol) {
+    if (!audioCtx) return;
+    try {
+      var osc = audioCtx.createOscillator();
+      var gain = audioCtx.createGain();
+      osc.type = type || 'triangle';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.0001, audioCtx.currentTime + start);
+      gain.gain.exponentialRampToValueAtTime(vol || 0.18, audioCtx.currentTime + start + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + start + dur);
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start(audioCtx.currentTime + start);
+      osc.stop(audioCtx.currentTime + start + dur + 0.05);
+    } catch (e) { /* noop */ }
+  }
+  function launchConfetti(mode) {
+    var canvas = document.createElement('canvas');
+    canvas.className = 'bz-confetti';
+    canvas.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(canvas);
+    var ctx = canvas.getContext('2d');
+    var dpr = Math.min(2, window.devicePixelRatio || 1);
+    var w = window.innerWidth, h = window.innerHeight;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    ctx.scale(dpr, dpr);
+
+    var COLORS = mode === 'gold'
+      ? ['#FDE68A', '#F5B942', '#E3B341', '#FFFFFF', '#F59E0B']
+      : ['#5EEAD4', '#2DD4BF', '#99F6E4', '#CCFBF1', '#0D9488'];
+    var COUNT = mode === 'gold' ? 150 : 64;
+    var parts = [];
+    var i;
+    for (i = 0; i < COUNT; i++) {
+      parts.push({
+        x: w / 2 + (Math.random() - 0.5) * (mode === 'gold' ? 320 : 160),
+        y: mode === 'gold' ? h * 0.28 + Math.random() * 60 : h * 0.18 + Math.random() * 80,
+        vx: (Math.random() - 0.5) * (mode === 'gold' ? 9 : 3.2),
+        vy: mode === 'gold' ? -(4 + Math.random() * 8) : -(0.6 + Math.random() * 1.4),
+        g: mode === 'gold' ? 0.16 : 0.05,
+        s: 4 + Math.random() * 6,
+        r: Math.random() * Math.PI * 2,
+        vr: (Math.random() - 0.5) * 0.25,
+        col: COLORS[(Math.random() * COLORS.length) | 0],
+        round: Math.random() < 0.35
+      });
+    }
+    var t0 = performance.now();
+    var LIFE = mode === 'gold' ? 3600 : 4200;
+    var frame = function (t) {
+      var dt = t - t0;
+      ctx.clearRect(0, 0, w, h);
+      var fade = dt > LIFE - 600 ? Math.max(0, (LIFE - dt) / 600) : 1;
+      ctx.globalAlpha = fade;
+      for (var j = 0; j < parts.length; j++) {
+        var p = parts[j];
+        p.x += p.vx; p.y += p.vy; p.vy += p.g; p.vx *= 0.995; p.r += p.vr;
+        if (p.y > h + 30) continue;
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.r);
+        ctx.fillStyle = p.col;
+        if (p.round) {
+          ctx.beginPath();
+          ctx.arc(0, 0, p.s / 2, 0, Math.PI * 2);
+          ctx.fill();
+        } else {
+          ctx.fillRect(-p.s / 2, -p.s / 2, p.s, p.s * 0.62);
+        }
+        ctx.restore();
+      }
+      ctx.globalAlpha = 1;
+      if (dt < LIFE) requestAnimationFrame(frame);
+      else canvas.remove();
+    };
+    requestAnimationFrame(frame);
+  }
+
+  function fireCelebration(isPass) {
+    if (REDUCED_MOTION) return;
+    primeAudio();
+    window.setTimeout(function () { playTone(110, 0, 0.16, 'sine', 0.3); playTone(70, 0.02, 0.2, 'sine', 0.22); }, 120);
+    window.setTimeout(function () {
+      playTone(659, 0, 0.18, 'triangle', 0.16);
+      playTone(880, 0.12, 0.3, 'triangle', 0.18);
+      launchConfetti(isPass ? 'gold' : 'calm');
+    }, 260);
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     INIT
+     ══════════════════════════════════════════════════════════════════ */
+  function init() {
+    form = $('#result-form');
+    rollInput = $('#roll');
+    submitBtn = $('#submit-btn');
+    btnLabel = $('#btn-label');
+    resetBtn = $('#reset-btn');
+    formError = $('#form-error');
+    formErrorText = $('#form-error-text');
+    output = $('#result-view');
+    statusBox = $('#bisep-status');
+    liveTitleEl = $('#live-title');
+    pillWrap = $('#live-pill-wrap');
+
+    bindSearchFlow();
+
+    /* ticker marquee is fully rebuilt by updateTicker() - one set + one
+       aria-hidden duplicate gives the seamless translateX(-50%) loop */
+
+    /* scroll-reveal observer (the shipped build never added .is-in) */
+    if ('IntersectionObserver' in window) {
+      var ro = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { en.target.classList.add('is-in'); ro.unobserve(en.target); }
+        });
+      }, { threshold: 0.12 });
+      $$('.reveal').forEach(function (n) { ro.observe(n); });
+    } else {
+      $$('.reveal').forEach(function (n) { n.classList.add('is-in'); });
+    }
+
+    /* keyboard shortcut: "/" focuses the roll number field */
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+      var t = e.target;
+      var tag = (t && t.tagName) || '';
+      if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA' || (t && t.isContentEditable)) return;
+      e.preventDefault();
+      rollInput.focus();
+      rollInput.select();
+    });
+
+    /* deep links: ?roll= auto-searches (SearchAction compatible);
+       ?exam= / ?year= are accepted and ignored (board lookup is
+       roll-based, exactly like GHS Babi Khel). */
+    (function () {
+      if (!window.location.search) { pollMeta(); return; }
+      var p = new URLSearchParams(window.location.search);
+      var roll = p.get('roll');
+      pollMeta();
+      if (roll && /^[0-9]{4,10}$/.test(roll)) {
+        rollInput.value = roll;
+        var go = function () {
+          /* wait until the first meta poll resolved so a pre-announcement
+             board still short-circuits instead of searching blind */
+          if (metaLoading) { setTimeout(go, 250); return; }
+          if (meta && !meta.is_live && meta.countdown_date) return; /* countdown active — GHS hides search */
+          form.requestSubmit(submitBtn);
+        };
+        if (document.readyState === 'complete') go();
+        else window.addEventListener('load', go);
+      }
+    })();
+
+    /* service worker (offline resilience) — https/http hosts only */
+    if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+      try {
+        navigator.serviceWorker.register('./sw.js').catch(function () { /* absent on previews */ });
+      } catch (e) { /* noop */ }
+    }
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+
+</script>
+</body>
+</html>

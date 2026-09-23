@@ -1,0 +1,17 @@
+{
+  "name": "bisep-online-results-system",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BISE Peshawar Online Results System — single-page site + /api/bisep-proxy serverless (Vercel) that fetches live results from cloud.bisep.edu.pk",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/bisep-proxy-express.js",
+    "dev": "node server/bisep-proxy-express.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
