@@ -8,7 +8,7 @@
    ══════════════════════════════════════════════════════════════════ */
 'use strict';
 
-var VERSION = 'bisep-cloud-v4';
+var VERSION = 'bisep-cloud-v5';
 var PRECACHE = [
   './',
   './index.html',
@@ -23,8 +23,13 @@ var PRECACHE = [
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
-    caches.open(VERSION).then(function (cache) { return cache.addAll(PRECACHE); })
-      .then(function () { return self.skipWaiting(); })
+    caches.open(VERSION).then(function (cache) {
+      /* one missing file must NEVER fail the whole install (addAll
+         rejects on any 404) — add individually, tolerate failures */
+      return Promise.all(PRECACHE.map(function (u) {
+        return cache.add(u).catch(function () { /* skip missing */ });
+      }));
+    }).then(function () { return self.skipWaiting(); })
   );
 });
 
